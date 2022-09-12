@@ -1,0 +1,4 @@
+header{
+    background-color: map-get($map: $couleur-fond, $key: couleur-fond-blanc);
+    color: couleur-police($couleur-fond-blanc);
+}

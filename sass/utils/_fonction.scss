@@ -1,0 +1,7 @@
+@function couleur-police($couleur-fond) {@if (lightness($couleur-fond) > 50%) {
+        $couleur-police: map-get($map: police-couleur, $key: police-couleur-fond-fonce);    
+    } @else {
+        $couleur-police: map-get($map: police-couleur, $key: police-couleur-fond-clair);
+    }
+    @return $couleur-police
+}
