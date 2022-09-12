@@ -1,4 +1,26 @@
-$police-couleur:(couleur-primaire: #9356DC,
-couleur-secondaire: #FF79DA,
-couleur-tertiaire: #99E2D0);
+$couleur-fond:(
+    couleur-fond-primaire: #9356DC,
+    couleur-fond-secondaire: #FF79DA,
+    couleur-fond-tertiaire: #99E2D0
+);
+
+$police-taille:(
+    taille-h1: 29px,
+    taille-h2: 25px,
+    taille-h3: 19px,
+    taille-p: 15px
+);
+
+$police-epaisseur: (
+    epaisseur-h1: 1000,
+    epaisseur-h2: 900,
+    epaisseur-h3: 800,
+    epaisseur-p-gras: 700,
+    epaisseur-p-normal: 400
+);
+
+$police-couleur: (
+    couleur-fond-clair: #000,
+    couleur-fond-fonce: #fff
+)
 

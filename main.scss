@@ -1,4 +1,9 @@
 @import "./sass/utils/variables";
+@import "./sass/layouts/header";
+@import "./sass/layouts/explorer";
+@import "./sass/layouts/fonctionnement";
+@import "./sass/layouts/restaurant";
+@import "./sass/layouts/footer";
 
 *{
     box-sizing: border-box;
