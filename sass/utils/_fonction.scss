@@ -1,0 +1,8 @@
+@function couleur-police($couleur-fond){
+    @if (lightness($couleur-fond) < 50%) {
+        @return $couleur-police-fond-fonce;
+    }
+    @else {
+        @return $couleur-police-fond-clair;
+    }
+}

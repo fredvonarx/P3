@@ -1,10 +1,13 @@
-$couleur-fond:(
-    couleur-fond-primaire: #9356DC,
-    couleur-fond-secondaire: #FF79DA,
-    couleur-fond-tertiaire: #99E2D0,
-    couleur-fond-blanc: #fff,
-    couleur-fond-noir: #000
-);
+
+$couleur-fond-primaire: #9356DC;
+$couleur-fond-secondaire: #FF79DA;
+$couleur-fond-tertiaire: #99E2D0;
+$couleur-fond-blanc: #fff;
+$couleur-fond-noir: #000;
+
+$couleur-police-fond-clair: #000;
+$couleur-police-fond-fonce: #fff;
+
 
 $police-taille:(
     taille-h1: 29px,
@@ -21,10 +24,7 @@ $police-epaisseur: (
     epaisseur-p-normal: 400
 );
 
-$police-couleur: (
-    couleur-police-fond-clair: #000,
-    couleur-police-fond-fonce: #fff
-)
+
 
 
 

@@ -1,0 +1,4 @@
+header{
+    @include couleur-fond-et-texte($couleur-fond-secondaire);
+    display: flex;
+}

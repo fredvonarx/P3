@@ -1,4 +1,6 @@
 @import "./sass/utils/variables";
+@import "./sass/utils/fonction";
+@import "./sass/utils/mixins";
 @import "./sass/layouts/header";
 @import "./sass/layouts/explorer";
 @import "./sass/layouts/fonctionnement";
@@ -8,4 +10,3 @@
 *{
     box-sizing: border-box;
 }
-

@@ -1,0 +1,4 @@
+@mixin couleur-fond-et-texte($couleur-fond: $couleur-fond-blanc) {
+    background-color: $couleur-fond;
+    color: couleur-police($couleur-fond);
+}

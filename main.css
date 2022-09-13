@@ -1,3 +1,9 @@
+header {
+  background-color: #FF79DA;
+  color: #000;
+  display: flex;
+}
+
 * {
   box-sizing: border-box;
 }/*# sourceMappingURL=main.css.map */
