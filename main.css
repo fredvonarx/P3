@@ -1,12 +1,7 @@
 header {
-<<<<<<< HEAD
-  background-color: #FF79DA;
-  color: #000;
-  display: flex;
-=======
   background-color: #fff;
-  color: couleur-police($couleur-fond-blanc);
->>>>>>> 2c438553b9cff025d3446c6dca6066c867e92d39
+  color: couleur-police(#fff);
+  display: flex;
 }
 
 * {
