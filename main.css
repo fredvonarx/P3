@@ -1,7 +1,6 @@
 header {
   background-color: #fff;
-  color: couleur-police(#fff);
-  display: flex;
+  color: #fff;
 }
 
 * {

@@ -1,18 +1,8 @@
-<<<<<<< HEAD
 @function couleur-police($couleur-fond){
-    @if (lightness($couleur-fond) < 50%) {
+    @if (lightness($couleur-fond) > 50%) {
         @return $couleur-police-fond-fonce;
     }
     @else {
         @return $couleur-police-fond-clair;
     }
 }
-=======
-@function couleur-police($couleur-fond) {@if (lightness($couleur-fond) > 50%) {
-        $couleur-police: map-get($map: police-couleur, $key: police-couleur-fond-fonce);    
-    } @else {
-        $couleur-police: map-get($map: police-couleur, $key: police-couleur-fond-clair);
-    }
-    @return $couleur-police
-}
->>>>>>> 2c438553b9cff025d3446c6dca6066c867e92d39
