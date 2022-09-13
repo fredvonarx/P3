@@ -1,4 +1,9 @@
 header{
+<<<<<<< HEAD
     @include couleur-fond-et-texte($couleur-fond-secondaire);
     display: flex;
+=======
+    background-color: map-get($map: $couleur-fond, $key: couleur-fond-blanc);
+    color: couleur-police($couleur-fond-blanc);
+>>>>>>> 2c438553b9cff025d3446c6dca6066c867e92d39
 }

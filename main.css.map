@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["sass/layouts/_header.scss","sass/utils/_mixins.scss","sass/utils/_variables.scss","main.css","main.scss"],"names":[],"mappings":"AAAA;ECCI,yBCCsB;EDAtB,WAAA;EDAA,aAAA;AGEJ;;ACKA;EACI,sBAAA;ADFJ","file":"main.css"}
+=======
+{"version":3,"sources":["sass/layouts/_header.scss","main.css","main.scss"],"names":[],"mappings":"AAAA;EACI,sBAAA;EACA,yCAAA;ACCJ;;ACIA;EACI,sBAAA;ADDJ","file":"main.css"}
+>>>>>>> 2c438553b9cff025d3446c6dca6066c867e92d39
