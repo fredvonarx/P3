@@ -8,6 +8,8 @@ header {
 footer {
   display: flex;
   flex-direction: column;
+  background-color: #000;
+  color: #000;
 }
 
 * {
