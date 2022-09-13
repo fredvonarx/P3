@@ -1,6 +1,13 @@
 header {
   background-color: #fff;
   color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
 }
 
 * {
