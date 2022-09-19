@@ -46,6 +46,13 @@ header {
   color: #000;
 }
 
+#restaurants .carte .restaurant--carte {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
