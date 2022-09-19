@@ -3,4 +3,5 @@ footer{
     flex-direction: column;
     @include couleur-fond-et-texte($couleur-fond-noir);
     padding: 10px;
+    margin: 10px;
 }
