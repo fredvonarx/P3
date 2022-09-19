@@ -1,0 +1,15 @@
+#restaurants{
+    @include couleur-fond-et-texte($couleur-fond-blanc);
+    a{
+        width: 100%;
+        text-decoration: none;
+        @include couleur-fond-et-texte($couleur-fond-blanc);
+        &:visited{
+            @include couleur-fond-et-texte($couleur-fond-blanc);
+        }
+        &:hover{
+            @include couleur-fond-et-texte($couleur-fond-blanc);
+        }
+    }
+}
+

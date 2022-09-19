@@ -14,11 +14,6 @@ ul li{
     padding-left: 0;
 }
 
-a, a:hover, a:visited{
-    width: 100%;
-    text-decoration: none;
-}
-
 img{
     width: 100%;
 }
@@ -32,6 +27,6 @@ img{
 @import "./sass/layouts/restaurant";
 @import "./sass/layouts/footer";
 
-a{
+a, a:hover, a:visited{
     text-decoration: none;
 }
