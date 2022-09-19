@@ -14,6 +14,16 @@ ul li{
     padding-left: 0;
 }
 
+a{
+    width: 100%;
+    text-decoration: none;
+    color: couleur-fond-et-texte($couleur-fond);
+}
+
+img{
+    width: 100%;
+}
+
 @import "./sass/utils/variables";
 @import "./sass/utils/fonction";
 @import "./sass/utils/mixins";
@@ -23,3 +33,6 @@ ul li{
 @import "./sass/layouts/restaurant";
 @import "./sass/layouts/footer";
 
+a{
+    text-decoration: none;
+}
