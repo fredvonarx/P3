@@ -13,3 +13,10 @@
     }
 }
 
+#restaurant{
+    .carte{
+        .restaurant--carte{
+            border-radius: map-get($map: $border-radius, $key: border-radius-mobile);
+        }
+    }
+}
