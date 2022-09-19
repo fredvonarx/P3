@@ -52,6 +52,9 @@ header {
   flex-direction: column;
   border-radius: 25px;
 }
+#restaurants .carte .restaurant--carte img {
+  height: 160px;
+}
 
 footer {
   display: flex;
