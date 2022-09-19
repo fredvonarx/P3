@@ -1,3 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5px;
+}
+
+ul li{
+    padding-left: 0;
+}
+
 @import "./sass/utils/variables";
 @import "./sass/utils/fonction";
 @import "./sass/utils/mixins";
@@ -7,10 +19,3 @@
 @import "./sass/layouts/restaurant";
 @import "./sass/layouts/footer";
 
-*{
-    box-sizing: border-box;
-}
-
-body{
-    margin: 3px;
-}
