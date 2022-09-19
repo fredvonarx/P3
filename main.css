@@ -14,8 +14,9 @@ ul li {
   padding-left: 0;
 }
 
-a {
+a, a:hover, a:visited {
   width: 100%;
+  text-decoration: none;
 }
 
 img {
@@ -42,4 +43,8 @@ footer {
 
 footer i {
   margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

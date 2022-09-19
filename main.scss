@@ -14,10 +14,9 @@ ul li{
     padding-left: 0;
 }
 
-a{
+a, a:hover, a:visited{
     width: 100%;
     text-decoration: none;
-    color: couleur-fond-et-texte($couleur-fond);
 }
 
 img{
