@@ -6,6 +6,10 @@ body {
   margin: 5px;
 }
 
+ul {
+  list-style: none;
+}
+
 ul li {
   padding-left: 0;
 }
@@ -26,4 +30,8 @@ footer {
   color: #fff;
   padding: 10px;
   margin: 10px;
+}
+
+footer i {
+  margin-right: 10px;
 }/*# sourceMappingURL=main.css.map */
