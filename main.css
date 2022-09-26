@@ -90,6 +90,11 @@ footer i {
   margin-right: 10px;
 }
 
+footer img {
+  width: 100px;
+  filter: invert(100%);
+}
+
 a, a:hover, a:visited {
   text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
