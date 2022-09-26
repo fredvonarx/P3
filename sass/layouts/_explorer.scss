@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color: $couleur-fond-gris-clair;
     padding: map-get($paddings, padding-ecran);
+    text-align: center;
     #explorer-formulaire{
         padding: 0;
     }
@@ -11,7 +12,11 @@
 #explorer-formulaire{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: $couleur-fond-gris-fonce;
+    form{
+        justify-items: center;
+    }
     input{
         background-color: $couleur-fond-gris-fonce;
         border: none;
