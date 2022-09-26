@@ -34,12 +34,23 @@ header img {
 }
 
 #explorer {
+  display: flex;
+  flex-direction: column;
   background-color: #f2f2f2;
   padding: 25px;
 }
+#explorer #explorer-formulaire {
+  padding: 0;
+}
 
 #explorer-formulaire {
+  display: flex;
+  flex-direction: row;
   background-color: #DEDEDE;
+}
+#explorer-formulaire input {
+  background-color: #DEDEDE;
+  border: none;
 }
 
 #restaurants {

@@ -1,8 +1,19 @@
 #explorer{
+    display: flex;
+    flex-direction: column;
     background-color: $couleur-fond-gris-clair;
     padding: map-get($paddings, padding-ecran);
+    #explorer-formulaire{
+        padding: 0;
+    }
 }
 
 #explorer-formulaire{
+    display: flex;
+    flex-direction: row;
     background-color: $couleur-fond-gris-fonce;
+    input{
+        background-color: $couleur-fond-gris-fonce;
+        border: none;
+    }
 }
