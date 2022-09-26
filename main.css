@@ -1,24 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-::first-letter {
-  text-transform: uppercase;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-ul li {
-  padding-left: 0;
-}
-
-img {
-  width: 100%;
-}
-
 header {
   background-color: #fff;
   color: #000;
@@ -147,6 +126,27 @@ footer i {
 footer img {
   width: 100px;
   filter: invert(100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::first-letter {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding-left: 0;
+}
+
+img {
+  width: 100%;
 }
 
 a, a:hover, a:visited {

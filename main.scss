@@ -1,3 +1,14 @@
+
+@import "./sass/utils/variables";
+@import "./sass/utils/fonction";
+@import "./sass/utils/mixins";
+@import "./sass/layouts/header";
+@import "./sass/layouts/explorer";
+@import "./sass/layouts/fonctionnement";
+@import "./sass/layouts/restaurant";
+@import "./sass/layouts/footer";
+
+
 *{
     box-sizing: border-box;
 }
@@ -20,15 +31,6 @@ ul li{
 img{
     width: 100%;
 }
-
-@import "./sass/utils/variables";
-@import "./sass/utils/fonction";
-@import "./sass/utils/mixins";
-@import "./sass/layouts/header";
-@import "./sass/layouts/explorer";
-@import "./sass/layouts/fonctionnement";
-@import "./sass/layouts/restaurant";
-@import "./sass/layouts/footer";
 
 a, a:hover, a:visited{
     text-decoration: none;
