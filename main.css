@@ -33,7 +33,13 @@ header img {
   display: flex;
 }
 
+#explorer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
 #restaurants {
+  background-color: #f2f2f2;
   padding: 25px;
   background-color: #fff;
   color: #000;

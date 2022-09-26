@@ -1,5 +1,6 @@
 #restaurants{
-    padding: 25px;
+    background-color: $couleur-fond-gris-clair;
+    padding: map-get($paddings, padding-ecran);
     @include couleur-fond-et-texte($couleur-fond-blanc);
     a{
         width: 100%;
