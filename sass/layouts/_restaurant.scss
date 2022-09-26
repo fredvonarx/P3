@@ -1,7 +1,6 @@
 #restaurants{
-    background-color: $couleur-fond-gris-clair;
     padding: map-get($paddings, padding-ecran);
-    @include couleur-fond-et-texte($couleur-fond-blanc);
+    @include couleur-fond-et-texte($couleur-fond-gris-clair);
     a{
         width: 100%;
         height: 200px;
@@ -32,6 +31,10 @@
         }
         h3{
             margin: 0;
+            padding: map-get($paddings, padding-carte-texte) 0 0 map-get($paddings, padding-carte-texte);
+        }
+        p{
+            padding: 0 0 0 map-get($paddings, padding-carte-texte);
         }
         i{
             position: absolute;

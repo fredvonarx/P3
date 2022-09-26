@@ -39,9 +39,8 @@ header img {
 }
 
 #restaurants {
-  background-color: #f2f2f2;
   padding: 25px;
-  background-color: #fff;
+  background-color: #f2f2f2;
   color: #000;
 }
 #restaurants a {
@@ -77,6 +76,10 @@ header img {
 }
 #restaurants a h3 {
   margin: 0;
+  padding: 15px 0 0 15px;
+}
+#restaurants a p {
+  padding: 0 0 0 15px;
 }
 #restaurants a i {
   position: absolute;
