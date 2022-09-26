@@ -38,6 +38,10 @@ header img {
   padding: 25px;
 }
 
+#explorer-formulaire {
+  background-color: #DEDEDE;
+}
+
 #restaurants {
   padding: 25px;
   background-color: #f2f2f2;

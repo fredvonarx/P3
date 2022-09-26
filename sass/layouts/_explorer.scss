@@ -2,3 +2,7 @@
     background-color: $couleur-fond-gris-clair;
     padding: map-get($paddings, padding-ecran);
 }
+
+#explorer-formulaire{
+    background-color: $couleur-fond-gris-fonce;
+}
