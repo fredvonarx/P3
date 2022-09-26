@@ -1,12 +1,23 @@
 #explorer{
     display: flex;
     flex-direction: column;
-    background-color: $couleur-fond-gris-clair;
+    align-items: center;
+    @include couleur-fond-et-texte($couleur-fond-gris-clair);
     padding: map-get($paddings, padding-ecran);
     text-align: center;
     #explorer-formulaire{
         padding: 0;
     }
+}
+
+#explorer .btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 215px;
+    height: 50px;
+    @include couleur-fond-et-texte($couleur-fond-secondaire);
+    border-radius: map-get($border-radius, border-radirus-mobile);
 }
 
 #explorer-formulaire{
