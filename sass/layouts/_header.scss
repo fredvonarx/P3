@@ -3,7 +3,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: map-get(paddings, padding-carte-texte);
+    padding: map-get(paddings, padding-ecran);
 }
 
 header img{

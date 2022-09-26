@@ -2,7 +2,7 @@ footer{
     display: flex;
     flex-direction: column;
     @include couleur-fond-et-texte($couleur-fond-noir);
-    padding: map-get(paddings, padding-carte-texte);
+    padding: map-get($paddings, padding-ecran);
 }
 
 footer i{
