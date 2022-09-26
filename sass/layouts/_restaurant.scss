@@ -1,4 +1,5 @@
 #restaurants{
+    padding: 25px;
     @include couleur-fond-et-texte($couleur-fond-blanc);
     a{
         width: 100%;
