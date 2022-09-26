@@ -58,6 +58,30 @@ header img {
   border: none;
 }
 
+#fonctionnement {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+#fonctionnement .btn {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  color: #000;
+  align-items: baseline;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+#fonctionnement .btn i {
+  margin: 0 15px 0 15px;
+}
+#fonctionnement .btn p:first-child {
+  background-color: #9356DC;
+  color: #000;
+}
+
 #restaurants {
   padding: 25px;
   background-color: #f2f2f2;

@@ -1,0 +1,22 @@
+#fonctionnement{
+    @include couleur-fond-et-texte($couleur-fond-blanc);
+    display: flex;
+    flex-direction: column;
+    padding: map-get($paddings, padding-ecran);
+    .btn{
+        display: flex;
+        flex-direction: row;
+        @include couleur-fond-et-texte($couleur-fond-gris-clair);
+        align-items: baseline;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        i{
+            margin: 0 15px 0 15px;
+        }
+        p{
+            &:first-child{
+                @include couleur-fond-et-texte($couleur-fond-primaire);
+            }
+        }
+    }
+}
