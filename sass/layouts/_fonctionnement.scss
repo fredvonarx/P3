@@ -4,17 +4,29 @@
     flex-direction: column;
     padding: map-get($paddings, padding-ecran);
     .btn{
+        height: 70px;
+        position: relative;
         display: flex;
         flex-direction: row;
         @include couleur-fond-et-texte($couleur-fond-gris-clair);
-        align-items: baseline;
+        align-items: center;
         margin-bottom: 15px;
         border-radius: 10px;
+        &:hover{
+            @include couleur-fond-et-texte($couleur-fond-secondaire);
+        }
         i{
             margin: 0 15px 0 15px;
         }
         p{
             &:first-child{
+                position: absolute;
+                left: -9px;
+                top: center;
+                height: 18px;
+                width: 18px;
+                border-radius: 9px;
+                text-align: center;
                 @include couleur-fond-et-texte($couleur-fond-primaire);
             }
         }
