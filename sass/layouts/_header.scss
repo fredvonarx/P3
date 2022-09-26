@@ -2,6 +2,12 @@ header{
     @include couleur-fond-et-texte($couleur-fond-blanc);
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 10px;
     margin: 10px;
+}
+
+header img{
+    width: 45%;
+    display: flex;
 }
