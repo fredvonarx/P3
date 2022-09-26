@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 5px;
+::first-letter{
+    text-transform: uppercase;
 }
 
 ul{
     list-style: none;
+    padding-left: 0;
 }
 
 ul li{
