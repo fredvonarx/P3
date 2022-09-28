@@ -35,7 +35,8 @@
             padding: map-get($paddings, padding-carte-texte) 0 0 map-get($paddings, padding-carte-texte);
         }
         p{
-            padding: 0 0 0 map-get($paddings, padding-carte-texte);
+            margin: 0;
+            padding: 0 0 map-get($paddings, padding-carte-texte) map-get($paddings, padding-carte-texte);
         }
         i{
             position: absolute;
