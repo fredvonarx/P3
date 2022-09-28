@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 header {
   background-color: #fff;
   color: #000;
@@ -159,6 +161,11 @@ footer img {
 
 * {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: shirkhand;
 }
 
 ::first-letter {
