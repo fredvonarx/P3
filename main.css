@@ -130,14 +130,11 @@ header img {
   border-radius: 25px 25px 0px 0px;
 }
 #restaurants a h3 {
-  margin: 0;
-  padding: 15px 0 0 15px;
+  margin: 15px 0 0 15px;
 }
 #restaurants a p {
-  height: 12px;
   font-size: 12px;
-  margin: 0;
-  padding: 0 0 15px 15px;
+  margin: 0 0 15px 15px;
 }
 #restaurants a i {
   position: absolute;
@@ -169,6 +166,18 @@ footer img {
 
 h1 {
   font-family: "shrikhand";
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 15px;
 }
 
 ::first-letter {
