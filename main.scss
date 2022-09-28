@@ -21,7 +21,7 @@ h1{
     font-family: 'shrikhand';
 }
 
-::first-letter{
+::first-letter, a::first-letter{
     text-transform: uppercase;
 }
 

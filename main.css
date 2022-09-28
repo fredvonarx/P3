@@ -136,6 +136,8 @@ header img {
 }
 #restaurants a p {
   display: flex;
+  height: 12px;
+  font-size: 12px;
   margin: 0;
   padding: 0 0 15px 15px;
 }
@@ -171,7 +173,7 @@ h1 {
   font-family: "shrikhand";
 }
 
-::first-letter {
+::first-letter, a::first-letter {
   text-transform: uppercase;
 }
 

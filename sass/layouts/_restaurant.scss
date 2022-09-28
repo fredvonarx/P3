@@ -37,6 +37,8 @@
         }
         p{
             display: flex;
+            height: 12px;
+            font-size: 12px;
             margin: 0;
             padding: 0 0 map-get($paddings, padding-carte-texte) map-get($paddings, padding-carte-texte);
         }
