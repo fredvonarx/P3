@@ -131,9 +131,11 @@ header img {
 }
 #restaurants a h3 {
   margin: 15px 0 0 15px;
+  height: 20px;
 }
 #restaurants a p {
   margin: 0 0 15px 15px;
+  height: 20px;
 }
 #restaurants a i {
   position: absolute;
