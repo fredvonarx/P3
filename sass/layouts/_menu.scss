@@ -1,4 +1,5 @@
 #menu{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    @include  couleur-fond-et-texte($couleur-fond-gris-clair);   
 }
