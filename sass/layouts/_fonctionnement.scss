@@ -11,7 +11,7 @@
         @include couleur-fond-et-texte($couleur-fond-gris-clair);
         align-items: center;
         margin-bottom: 15px;
-        border-radius: 10px;
+        border-radius: border-radius-complet($hauteur-btn-fonct);
         &:hover{
             @include couleur-fond-et-texte($couleur-fond-secondaire);
         }

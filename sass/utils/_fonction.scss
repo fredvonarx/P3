@@ -6,3 +6,8 @@
         @return $couleur-police-fond-clair;
     }
 }
+
+@function border-radius-complet($hauteur-box){
+    $border-radius-complet: $hauteur-box/2;
+    @return $border-radius-complet;
+}
