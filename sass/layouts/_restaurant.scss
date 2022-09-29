@@ -3,7 +3,6 @@
     @include couleur-fond-et-texte($couleur-fond-gris-clair);
     a{
         width: 100%;
-        height: 200px;
         text-decoration: none;
         @include couleur-fond-et-texte($couleur-fond-blanc);
         &:visited{
@@ -22,7 +21,6 @@
         flex-direction: column;
         height: hauteur-carte-restuarant($mobile);
         width: 100%;
-        margin-bottom: 15px;
         border-radius: 25px;
         box-shadow: 5px 5px 15px 3px rgba(100, 100, 100, .2);
         img {
