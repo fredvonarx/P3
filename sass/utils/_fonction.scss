@@ -13,5 +13,5 @@
 }
 
 @function hauteur-carte-restaurant($support){
-    $hauteur-carte-restaurant: $hauter-image-restaurant-index-mobile+$hauteur-h3-restaurant-index-mobile+$hauteur-p-restaurant-index-mobile+2*map-get($paddings, padding-carte-texte);
+    $hauteur-carte-restaurant: $hauter-image-restaurant-index-mobile+$hauteur-h3-restaurant-index-mobile+$hauteur-p-restaurant-index-mobile;
 }
