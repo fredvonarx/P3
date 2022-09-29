@@ -17,7 +17,7 @@
     width: 215px;
     height: 50px;
     @include couleur-fond-et-texte($couleur-fond-secondaire);
-    border-radius: map-get($border-radius, border-radirus-mobile);
+    border-radius: border-radius-complet($hauteur-btn-fonct);
 }
 
 #explorer form{

@@ -35,7 +35,7 @@ header img {
   height: 50px;
   background-color: #FF79DA;
   color: #fff;
-  border-radius: 15px;
+  border-radius: 35px;
 }
 
 #explorer form {
@@ -71,7 +71,7 @@ header img {
   color: #000;
   align-items: center;
   margin-bottom: 15px;
-  border-radius: 35px;
+  border-radius: 15px;
 }
 #fonctionnement .btn:hover {
   background-color: #FF79DA;
