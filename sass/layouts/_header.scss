@@ -1,12 +1,21 @@
 header{
+    position: relative;
     @include couleur-fond-et-texte($couleur-fond-blanc);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: map-get($paddings, padding-ecran);
-}
-
-header img{
-    width: 45%;
-    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img:nth-child(1){
+        width: 45%;
+        display: flex;  
+        margin: map-get($paddings, padding-ecran);
+    }
+    img:nth-child(2){
+        width: 100%;
+        display: flex;
+    }
+    a{
+        position: absolute;
+        top: 25px;
+        left: 50px;
+    }
 }
