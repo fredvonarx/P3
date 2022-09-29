@@ -8,7 +8,7 @@
 }
 
 @function border-radius-complet($hauteur-box){
-    $border-radius-complet: $hauteur-box/2;
+    $border-radius-complet: calc($hauteur-box / 2);
     @return $border-radius-complet;
 }
 
