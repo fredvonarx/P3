@@ -28,5 +28,30 @@
         height: 50px;
         @include couleur-fond-et-texte($couleur-fond-secondaire);
         border-radius: border-radius-complet($hauteur-btn-fonct-mobile);
+    }
+    .plat a{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 100px;
+        padding-left: map-get($paddings, padding-carte-texte);
+        margin-bottom: map-get($paddings, padding-ecran);
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px 3px rgba(100, 100, 100, .2);
+        @include couleur-fond-et-texte($couleur-fond-blanc);
+        :first-child{
+            font-size: 18px;
+            font-weight: 700;
+        }
+        :nth-child(2){
+            font-size: 15px;
+        }
+        :last-child{
+            font-size: 18px;
+            font-weight: 700;
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+        }
     } 
 }
