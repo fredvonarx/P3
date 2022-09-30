@@ -3,15 +3,18 @@ header{
     @include couleur-fond-et-texte($couleur-fond-blanc);
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
     img:nth-child(1){
         width: 45%;
         display: flex;  
-        margin: map-get($paddings, padding-ecran);
+        margin: map-get($paddings, padding-ecran) map-get($paddings, padding-ecran) 0 map-get($paddings, padding-ecran);
     }
     img:nth-child(2){
         width: 100%;
         display: flex;
+        overflow: visible;
+        transform: translateY(40px);
     }
     a{
         position: absolute;
