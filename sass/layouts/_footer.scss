@@ -3,6 +3,7 @@ footer{
     flex-direction: column;
     @include couleur-fond-et-texte($couleur-fond-noir);
     padding: map-get($paddings, padding-ecran);
+    transform: translateY(-40px);
 }
 
 footer i{
