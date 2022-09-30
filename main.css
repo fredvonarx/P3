@@ -154,8 +154,36 @@ header a {
 #menu {
   display: flex;
   flex-direction: column;
+  padding: 0 25px 100px 25px;
+  border-radius: 40px 40px 0 0;
+  position: relative;
   background-color: #f2f2f2;
   color: #000;
+}
+#menu a {
+  background-color: #f2f2f2;
+  color: #000;
+}
+#menu h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#menu .btn {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  transform: translate(-50%, 0);
+  bottom: 25px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 215px;
+  height: 50px;
+  background-color: #FF79DA;
+  color: #fff;
+  border-radius: 35px;
 }
 
 footer {
