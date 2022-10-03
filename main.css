@@ -51,6 +51,7 @@ header i, i:hover, i:visited {
   height: 50px;
   background-color: #FF79DA;
   color: #fff;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   border-radius: 35px;
 }
 
@@ -86,8 +87,9 @@ header i, i:hover, i:visited {
   background-color: #f2f2f2;
   color: #000;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(100, 100, 100, 0.2);
 }
 #fonctionnement .btn:hover {
   background-color: #FF79DA;
@@ -192,6 +194,7 @@ header i, i:hover, i:visited {
   height: 50px;
   background-color: #FF79DA;
   color: #fff;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   border-radius: 35px;
 }
 #menu .plat a {

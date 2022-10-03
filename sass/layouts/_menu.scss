@@ -27,6 +27,7 @@
         width: 215px;
         height: 50px;
         @include couleur-fond-et-texte($couleur-fond-secondaire);
+        background: linear-gradient(to bottom right, $couleur-fond-secondaire, $couleur-fond-primaire);
         border-radius: border-radius-complet($hauteur-btn-fonct-mobile);
     }
     .plat a{
