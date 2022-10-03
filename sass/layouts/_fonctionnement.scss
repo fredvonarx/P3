@@ -11,7 +11,7 @@
         @include couleur-fond-et-texte($couleur-fond-gris-clair);
         align-items: center;
         margin-bottom: 15px;
-        border-radius: map-get($map: $border-radius, $key: border-radirus-mobile);
+        border-radius: map-get($map: $border-radius, $key: border-radius-mobile);
         &:hover{
             @include couleur-fond-et-texte($couleur-fond-secondaire);
         }

@@ -25,6 +25,11 @@ header a {
   left: 50px;
 }
 
+header i, i:hover, i:visited {
+  background-color: #fff;
+  color: #000;
+}
+
 #explorer {
   display: flex;
   flex-direction: column;
@@ -82,6 +87,7 @@ header a {
   color: #000;
   align-items: center;
   margin-bottom: 15px;
+  border-radius: 15px;
 }
 #fonctionnement .btn:hover {
   background-color: #FF79DA;

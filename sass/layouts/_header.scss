@@ -21,3 +21,7 @@ header{
         left: 50px;
     }
 }
+
+header i, i:hover, i:visited{
+    @include couleur-fond-et-texte($couleur-fond-blanc);
+}
