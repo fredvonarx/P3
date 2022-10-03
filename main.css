@@ -220,6 +220,18 @@ header i, i:hover, i:visited {
   bottom: 15px;
   right: 15px;
 }
+#menu h3 {
+  position: relative;
+}
+#menu h3::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  height: 2px;
+  width: 40px;
+  background-color: #99E2D0;
+}
 
 footer {
   display: flex;
