@@ -1,5 +1,5 @@
 @function couleur-police($couleur-fond){
-    @if (lightness($couleur-fond) < 75%) {
+    @if (lightness($couleur-fond) < 80%) {
         @return $couleur-police-fond-fonce;
     }
     @else {

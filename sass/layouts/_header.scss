@@ -22,6 +22,6 @@ header{
     }
 }
 
-header i, i:hover, i:visited{
+header i, header i:hover, header i:visited{
     @include couleur-fond-et-texte($couleur-fond-blanc);
 }

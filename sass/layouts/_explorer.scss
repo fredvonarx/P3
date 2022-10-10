@@ -19,6 +19,12 @@
     @include couleur-fond-et-texte($couleur-fond-secondaire);
     background: linear-gradient(to bottom right, $couleur-fond-secondaire, $couleur-fond-primaire);
     border-radius: border-radius-complet($hauteur-btn-fonct-mobile);
+    box-shadow: 5px 5px 15px 3px rgba(100, 100, 100, .2);
+    &:hover{
+        @include couleur-fond-et-texte(lighten($couleur-fond-secondaire, 3%));
+        background: linear-gradient(to bottom right, lighten($couleur-fond-secondaire, 3%), lighten($couleur-fond-primaire, 3%));
+        box-shadow: 5px 5px 15px 3px rgba(50, 50, 50, .3);
+    }
 }
 
 #explorer form{
