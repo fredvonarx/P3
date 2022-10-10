@@ -14,7 +14,7 @@
         border-radius: map-get($map: $border-radius, $key: border-radius-mobile);
         box-shadow: 5px 5px 15px 3px rgba(100, 100, 100, .2);
         &:hover{
-            @include couleur-fond-et-texte($couleur-fond-secondaire);
+            @include couleur-fond-et-texte($couleur-fond-fonctionnement-hover);
         }
         i{
             margin: 0 15px 0 15px;
