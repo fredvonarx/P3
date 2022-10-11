@@ -202,6 +202,12 @@ header i, header i:hover, header i:visited {
   flex-direction: row;
   justify-content: space-between;
 }
+#menu h1 .fa-regular {
+  background: #f2f2f2;
+}
+#menu h1 .fa-regular:hover {
+  background: #9356DC;
+}
 #menu .btn {
   display: flex;
   position: absolute;
