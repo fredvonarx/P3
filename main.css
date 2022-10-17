@@ -209,10 +209,6 @@ header i, header i:hover, header i:visited {
   background-color: #f2f2f2;
   color: #000;
 }
-#menu a {
-  background-color: #f2f2f2;
-  color: #000;
-}
 #menu h1 {
   display: flex;
   flex-direction: row;
@@ -259,7 +255,11 @@ header i, header i:hover, header i:visited {
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   border-radius: 35px;
 }
-#menu .plat a {
+#menu .plat {
+  position: relative;
+  display: flex;
+}
+#menu .plat.plat--1 {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -270,27 +270,163 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 50ms ease 200ms 1 normal both;
-          animation: apparition 50ms ease 200ms 1 normal both;
+  -webkit-animation: apparition 500ms ease 200ms 1 normal both;
+          animation: apparition 500ms ease 200ms 1 normal both;
 }
-#menu .plat a :first-child {
+#menu .plat.plat--1:first-child {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
 }
-#menu .plat a :nth-child(2) {
-  font-size: 15px;
+#menu .plat.plat--2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition 500ms ease 200ms 1 normal both;
+          animation: apparition 500ms ease 200ms 1 normal both;
 }
-#menu .plat a :last-child {
+#menu .plat.plat--2:first-child {
   font-size: 18px;
-  font-weight: 700;
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
+  font-weight: 800;
 }
-#menu h3 {
+#menu .plat.plat--3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition 500ms ease 200ms 1 normal both;
+          animation: apparition 500ms ease 200ms 1 normal both;
+}
+#menu .plat.plat--3:first-child {
+  font-size: 18px;
+  font-weight: 800;
+}
+#menu .plat.plat--4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition 500ms ease 200ms 1 normal both;
+          animation: apparition 500ms ease 200ms 1 normal both;
+}
+#menu .plat.plat--4:first-child {
+  font-size: 18px;
+  font-weight: 800;
+}
+#menu .plat.plat--5 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition 500ms ease 200ms 1 normal both;
+          animation: apparition 500ms ease 200ms 1 normal both;
+}
+#menu .plat.plat--5:first-child {
+  font-size: 18px;
+  font-weight: 800;
+}
+#menu .plat.plat--6 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition 500ms ease 200ms 1 normal both;
+          animation: apparition 500ms ease 200ms 1 normal both;
+}
+#menu .plat.plat--6:first-child {
+  font-size: 18px;
+  font-weight: 800;
+}
+#menu .plat.plat--7 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition 500ms ease 200ms 1 normal both;
+          animation: apparition 500ms ease 200ms 1 normal both;
+}
+#menu .plat.plat--7:first-child {
+  font-size: 18px;
+  font-weight: 800;
+}
+#menu .plat.plat--8 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition 500ms ease 200ms 1 normal both;
+          animation: apparition 500ms ease 200ms 1 normal both;
+}
+#menu .plat.plat--8:first-child {
+  font-size: 18px;
+  font-weight: 800;
+}
+#menu .plat.plat--9 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition 500ms ease 200ms 1 normal both;
+          animation: apparition 500ms ease 200ms 1 normal both;
+}
+#menu .plat.plat--9:first-child {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+h3 {
   position: relative;
 }
-#menu h3::after {
+
+h3::after {
   content: "";
   position: absolute;
   bottom: -5px;
@@ -298,6 +434,14 @@ header i, header i:hover, header i:visited {
   height: 2px;
   width: 40px;
   background-color: #99E2D0;
+}
+
+#menu .plat.plat--1 {
+  background-color: #9356DC;
+}
+
+#menu .plat.plat--1 p:first-child {
+  font-weight: 800;
 }
 
 footer {
