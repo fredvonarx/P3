@@ -21,15 +21,21 @@
         }
         .contour{
             color: $couleur-fond-noir;
-            z-index: 1;
             background: transparent;
         }
-        .remplissage{
-            color: $couleur-fond-gris-clair;
-            &:hover{
-                color: $couleur-fond-primaire;
-            }
-        }
+        .remplissage {
+            cursor: pointer;
+          }
+          .remplissage .fa-full {
+            opacity: 0;
+            transition: 1s;
+            background: linear-gradient(#9356DC 20%, #FF79DA);
+            background-clip: text;
+            color: transparent;
+          }
+          .remplissage .fa-full:hover {
+            opacity: 1;
+          }
     } 
     .btn{
         display: flex;

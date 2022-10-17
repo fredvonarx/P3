@@ -210,14 +210,21 @@ header i, header i:hover, header i:visited {
 }
 #menu h1 .contour {
   color: #000;
-  z-index: 1;
   background: transparent;
 }
 #menu h1 .remplissage {
-  color: #f2f2f2;
+  cursor: pointer;
 }
-#menu h1 .remplissage:hover {
-  color: #9356DC;
+#menu h1 .remplissage .fa-full {
+  opacity: 0;
+  transition: 1s;
+  background: linear-gradient(#9356DC 20%, #FF79DA);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+#menu h1 .remplissage .fa-full:hover {
+  opacity: 1;
 }
 #menu .btn {
   display: flex;
