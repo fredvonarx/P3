@@ -16,6 +16,22 @@
     transform: scaleY(0);
   }
 }
+@-webkit-keyframes apparition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes apparition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 header {
   position: relative;
   background-color: #fff;
@@ -254,6 +270,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
+  -webkit-animation: apparition 50ms ease 200ms 1 normal both;
+          animation: apparition 50ms ease 200ms 1 normal both;
 }
 #menu .plat a :first-child {
   font-size: 18px;
@@ -272,7 +290,7 @@ header i, header i:hover, header i:visited {
 #menu h3 {
   position: relative;
 }
-#menu h3::before {
+#menu h3::after {
   content: "";
   position: absolute;
   bottom: -5px;

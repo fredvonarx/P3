@@ -63,6 +63,7 @@
         border-radius: 15px;
         box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, .2);
         @include couleur-fond-et-texte($couleur-fond-blanc);
+        animation: apparition 50ms ease 200ms 1 normal both;
         :first-child{
             font-size: 18px;
             font-weight: 700;
@@ -81,7 +82,7 @@
     h3{
         position: relative;
     }
-    h3::before{
+    h3::after{
         content: '';
         position: absolute;
         bottom: -5px;
