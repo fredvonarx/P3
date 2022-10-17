@@ -13,10 +13,21 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        .fa-regular{
+        position: relative;
+        i{
+            position: absolute;
+            right: 30px;
             background: $couleur-fond-gris-clair;
+        }
+        .contour{
+            color: $couleur-fond-noir;
+            z-index: 1;
+            background: transparent;
+        }
+        .remplissage{
+            color: $couleur-fond-gris-clair;
             &:hover{
-                background: $couleur-fond-primaire;
+                color: $couleur-fond-primaire;
             }
         }
     } 

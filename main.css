@@ -201,12 +201,23 @@ header i, header i:hover, header i:visited {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
-#menu h1 .fa-regular {
+#menu h1 i {
+  position: absolute;
+  right: 30px;
   background: #f2f2f2;
 }
-#menu h1 .fa-regular:hover {
-  background: #9356DC;
+#menu h1 .contour {
+  color: #000;
+  z-index: 1;
+  background: transparent;
+}
+#menu h1 .remplissage {
+  color: #f2f2f2;
+}
+#menu h1 .remplissage:hover {
+  color: #9356DC;
 }
 #menu .btn {
   display: flex;
