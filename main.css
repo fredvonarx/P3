@@ -539,11 +539,11 @@ header i, header i:hover, header i:visited {
   font-weight: 800;
 }
 
-h3 {
+#menu h3 {
   position: relative;
 }
 
-h3::after {
+#menu h3::after {
   content: "";
   position: absolute;
   bottom: -5px;
