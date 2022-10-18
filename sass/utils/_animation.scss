@@ -21,6 +21,15 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(-$largeur-coche)
+        transform: translateX(-$largeur-coche);
+    }
+}
+
+@keyframes coche_p{
+    0%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scale( - $largeur-coche);
     }
 }
