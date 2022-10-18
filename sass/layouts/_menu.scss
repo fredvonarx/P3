@@ -61,6 +61,7 @@
         justify-content: space-between;
         position: relative;
         height: $hauteur-plat;
+        overflow: hidden;
         padding-left: map-get($paddings, padding-carte-texte);
         padding-top: map-get($paddings, padding-carte-texte);
         padding-bottom: map-get($paddings, padding-carte-texte);
@@ -82,13 +83,26 @@
             font-size: 14px;
             font-weight: 400;
         }
-        p:last-child{
+        p:nth-child(3){
             position: absolute;
             margin: 0;
             right: 25px;
             bottom: map-get($paddings, padding-carte-texte);
             font-size: 17px;
             font-weight: 800;
+        }
+        i{
+            display: flex;
+            width: 75px;
+            position: absolute;
+            background-color: $couleur-fond-tertiaire;
+            top: 0;
+            right: 0px;
+            height: $hauteur-plat;
+            border-radius: 0;
+            justify-content: center;
+            align-items: center;
+            color: $couleur-fond-blanc;
         }
     }
 }
@@ -108,9 +122,6 @@
         width: 40px;
         background-color: $couleur-fond-tertiaire;
     } 
-    #menu .plat.plat--1{
-        background-color: #9356DC;
-    }
 
     #menu .plat.plat--1 p:first-child{
         font-weight: 800;

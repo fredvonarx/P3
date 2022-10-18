@@ -265,6 +265,7 @@ header i, header i:hover, header i:visited {
   justify-content: space-between;
   position: relative;
   height: 70px;
+  overflow: hidden;
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -289,7 +290,7 @@ header i, header i:hover, header i:visited {
   font-size: 14px;
   font-weight: 400;
 }
-#menu .plat.plat--1 p:last-child {
+#menu .plat.plat--1 p:nth-child(3) {
   position: absolute;
   margin: 0;
   right: 25px;
@@ -297,12 +298,26 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
+#menu .plat.plat--1 i {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: 0px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 #menu .plat.plat--2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   height: 70px;
+  overflow: hidden;
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -327,7 +342,7 @@ header i, header i:hover, header i:visited {
   font-size: 14px;
   font-weight: 400;
 }
-#menu .plat.plat--2 p:last-child {
+#menu .plat.plat--2 p:nth-child(3) {
   position: absolute;
   margin: 0;
   right: 25px;
@@ -335,12 +350,26 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
+#menu .plat.plat--2 i {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: 0px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 #menu .plat.plat--3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   height: 70px;
+  overflow: hidden;
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -365,7 +394,7 @@ header i, header i:hover, header i:visited {
   font-size: 14px;
   font-weight: 400;
 }
-#menu .plat.plat--3 p:last-child {
+#menu .plat.plat--3 p:nth-child(3) {
   position: absolute;
   margin: 0;
   right: 25px;
@@ -373,12 +402,26 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
+#menu .plat.plat--3 i {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: 0px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 #menu .plat.plat--4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   height: 70px;
+  overflow: hidden;
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -403,7 +446,7 @@ header i, header i:hover, header i:visited {
   font-size: 14px;
   font-weight: 400;
 }
-#menu .plat.plat--4 p:last-child {
+#menu .plat.plat--4 p:nth-child(3) {
   position: absolute;
   margin: 0;
   right: 25px;
@@ -411,12 +454,26 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
+#menu .plat.plat--4 i {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: 0px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 #menu .plat.plat--5 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   height: 70px;
+  overflow: hidden;
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -441,7 +498,7 @@ header i, header i:hover, header i:visited {
   font-size: 14px;
   font-weight: 400;
 }
-#menu .plat.plat--5 p:last-child {
+#menu .plat.plat--5 p:nth-child(3) {
   position: absolute;
   margin: 0;
   right: 25px;
@@ -449,12 +506,26 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
+#menu .plat.plat--5 i {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: 0px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 #menu .plat.plat--6 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   height: 70px;
+  overflow: hidden;
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -479,7 +550,7 @@ header i, header i:hover, header i:visited {
   font-size: 14px;
   font-weight: 400;
 }
-#menu .plat.plat--6 p:last-child {
+#menu .plat.plat--6 p:nth-child(3) {
   position: absolute;
   margin: 0;
   right: 25px;
@@ -487,12 +558,26 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
+#menu .plat.plat--6 i {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: 0px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 #menu .plat.plat--7 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   height: 70px;
+  overflow: hidden;
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -517,7 +602,7 @@ header i, header i:hover, header i:visited {
   font-size: 14px;
   font-weight: 400;
 }
-#menu .plat.plat--7 p:last-child {
+#menu .plat.plat--7 p:nth-child(3) {
   position: absolute;
   margin: 0;
   right: 25px;
@@ -525,12 +610,26 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
+#menu .plat.plat--7 i {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: 0px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 #menu .plat.plat--8 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   height: 70px;
+  overflow: hidden;
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -555,7 +654,7 @@ header i, header i:hover, header i:visited {
   font-size: 14px;
   font-weight: 400;
 }
-#menu .plat.plat--8 p:last-child {
+#menu .plat.plat--8 p:nth-child(3) {
   position: absolute;
   margin: 0;
   right: 25px;
@@ -563,12 +662,26 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
+#menu .plat.plat--8 i {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: 0px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 #menu .plat.plat--9 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   height: 70px;
+  overflow: hidden;
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -593,13 +706,26 @@ header i, header i:hover, header i:visited {
   font-size: 14px;
   font-weight: 400;
 }
-#menu .plat.plat--9 p:last-child {
+#menu .plat.plat--9 p:nth-child(3) {
   position: absolute;
   margin: 0;
   right: 25px;
   bottom: 15px;
   font-size: 17px;
   font-weight: 800;
+}
+#menu .plat.plat--9 i {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: 0px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 #menu h3 {
@@ -614,10 +740,6 @@ header i, header i:hover, header i:visited {
   height: 2px;
   width: 40px;
   background-color: #99E2D0;
-}
-
-#menu .plat.plat--1 {
-  background-color: #9356DC;
 }
 
 #menu .plat.plat--1 p:first-child {
