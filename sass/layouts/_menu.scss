@@ -93,11 +93,11 @@
         }
         .plat__coche{
             display: flex;
-            width: 75px;
+            width: $largeur-coche;
             position: absolute;
             background-color: $couleur-fond-tertiaire;
             top: 0;
-            right: -75px;
+            right: -$largeur-coche;
             height: $hauteur-plat;
             border-radius: 0;
             justify-content: center;
@@ -106,7 +106,11 @@
         }
         
         &:hover .plat__coche{
-            animation: coche 2000ms;
+            animation: coche 1s 0s ease-in-out both;
+        }
+
+        &:hover p:nth-child(3){
+            animation: coche 1s 0s ease-in-out both;
         }
     }
 }
