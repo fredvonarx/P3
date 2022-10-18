@@ -262,10 +262,12 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  height: 100px;
+  height: 70px;
   padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 25px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
@@ -274,29 +276,36 @@ header i, header i:hover, header i:visited {
   -webkit-animation: apparition 100ms ease 300ms 1 normal both;
           animation: apparition 100ms ease 300ms 1 normal both;
 }
+#menu .plat.plat--1 p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 #menu .plat.plat--1 p:first-child {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--1 p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 #menu .plat.plat--1 p:last-child {
   position: absolute;
   margin: 0;
   right: 25px;
-  bottom: 50px;
-  font-size: 18px;
+  bottom: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  height: 100px;
+  height: 70px;
   padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 25px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
@@ -305,29 +314,36 @@ header i, header i:hover, header i:visited {
   -webkit-animation: apparition 100ms ease 600ms 1 normal both;
           animation: apparition 100ms ease 600ms 1 normal both;
 }
+#menu .plat.plat--2 p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 #menu .plat.plat--2 p:first-child {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--2 p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 #menu .plat.plat--2 p:last-child {
   position: absolute;
   margin: 0;
   right: 25px;
-  bottom: 50px;
-  font-size: 18px;
+  bottom: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  height: 100px;
+  height: 70px;
   padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 25px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
@@ -336,29 +352,36 @@ header i, header i:hover, header i:visited {
   -webkit-animation: apparition 100ms ease 900ms 1 normal both;
           animation: apparition 100ms ease 900ms 1 normal both;
 }
+#menu .plat.plat--3 p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 #menu .plat.plat--3 p:first-child {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--3 p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 #menu .plat.plat--3 p:last-child {
   position: absolute;
   margin: 0;
   right: 25px;
-  bottom: 50px;
-  font-size: 18px;
+  bottom: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--4 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  height: 100px;
+  height: 70px;
   padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 25px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
@@ -367,29 +390,36 @@ header i, header i:hover, header i:visited {
   -webkit-animation: apparition 100ms ease 1200ms 1 normal both;
           animation: apparition 100ms ease 1200ms 1 normal both;
 }
+#menu .plat.plat--4 p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 #menu .plat.plat--4 p:first-child {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--4 p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 #menu .plat.plat--4 p:last-child {
   position: absolute;
   margin: 0;
   right: 25px;
-  bottom: 50px;
-  font-size: 18px;
+  bottom: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--5 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  height: 100px;
+  height: 70px;
   padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 25px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
@@ -398,29 +428,36 @@ header i, header i:hover, header i:visited {
   -webkit-animation: apparition 100ms ease 1500ms 1 normal both;
           animation: apparition 100ms ease 1500ms 1 normal both;
 }
+#menu .plat.plat--5 p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 #menu .plat.plat--5 p:first-child {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--5 p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 #menu .plat.plat--5 p:last-child {
   position: absolute;
   margin: 0;
   right: 25px;
-  bottom: 50px;
-  font-size: 18px;
+  bottom: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--6 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  height: 100px;
+  height: 70px;
   padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 25px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
@@ -429,29 +466,36 @@ header i, header i:hover, header i:visited {
   -webkit-animation: apparition 100ms ease 1800ms 1 normal both;
           animation: apparition 100ms ease 1800ms 1 normal both;
 }
+#menu .plat.plat--6 p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 #menu .plat.plat--6 p:first-child {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--6 p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 #menu .plat.plat--6 p:last-child {
   position: absolute;
   margin: 0;
   right: 25px;
-  bottom: 50px;
-  font-size: 18px;
+  bottom: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--7 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  height: 100px;
+  height: 70px;
   padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 25px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
@@ -460,29 +504,36 @@ header i, header i:hover, header i:visited {
   -webkit-animation: apparition 100ms ease 2100ms 1 normal both;
           animation: apparition 100ms ease 2100ms 1 normal both;
 }
+#menu .plat.plat--7 p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 #menu .plat.plat--7 p:first-child {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--7 p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 #menu .plat.plat--7 p:last-child {
   position: absolute;
   margin: 0;
   right: 25px;
-  bottom: 50px;
-  font-size: 18px;
+  bottom: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--8 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  height: 100px;
+  height: 70px;
   padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 25px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
@@ -491,29 +542,36 @@ header i, header i:hover, header i:visited {
   -webkit-animation: apparition 100ms ease 2400ms 1 normal both;
           animation: apparition 100ms ease 2400ms 1 normal both;
 }
+#menu .plat.plat--8 p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 #menu .plat.plat--8 p:first-child {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--8 p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 #menu .plat.plat--8 p:last-child {
   position: absolute;
   margin: 0;
   right: 25px;
-  bottom: 50px;
-  font-size: 18px;
+  bottom: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--9 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  height: 100px;
+  height: 70px;
   padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 25px;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
@@ -522,20 +580,25 @@ header i, header i:hover, header i:visited {
   -webkit-animation: apparition 100ms ease 2700ms 1 normal both;
           animation: apparition 100ms ease 2700ms 1 normal both;
 }
+#menu .plat.plat--9 p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 #menu .plat.plat--9 p:first-child {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--9 p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 #menu .plat.plat--9 p:last-child {
   position: absolute;
   margin: 0;
   right: 25px;
-  bottom: 50px;
-  font-size: 18px;
+  bottom: 15px;
+  font-size: 17px;
   font-weight: 800;
 }
 
