@@ -32,6 +32,22 @@
     opacity: 1;
   }
 }
+@-webkit-keyframes coche {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes coche {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 header {
   position: relative;
   background-color: #fff;
@@ -312,7 +328,8 @@ header i, header i:hover, header i:visited {
   color: #fff;
 }
 #menu .plat.plat--1:hover .plat__coche {
-  right: 0px;
+  -webkit-animation: coche 2000ms;
+          animation: coche 2000ms;
 }
 #menu .plat.plat--2 {
   display: flex;
@@ -367,7 +384,8 @@ header i, header i:hover, header i:visited {
   color: #fff;
 }
 #menu .plat.plat--2:hover .plat__coche {
-  right: 0px;
+  -webkit-animation: coche 2000ms;
+          animation: coche 2000ms;
 }
 #menu .plat.plat--3 {
   display: flex;
@@ -422,7 +440,8 @@ header i, header i:hover, header i:visited {
   color: #fff;
 }
 #menu .plat.plat--3:hover .plat__coche {
-  right: 0px;
+  -webkit-animation: coche 2000ms;
+          animation: coche 2000ms;
 }
 #menu .plat.plat--4 {
   display: flex;
@@ -477,7 +496,8 @@ header i, header i:hover, header i:visited {
   color: #fff;
 }
 #menu .plat.plat--4:hover .plat__coche {
-  right: 0px;
+  -webkit-animation: coche 2000ms;
+          animation: coche 2000ms;
 }
 #menu .plat.plat--5 {
   display: flex;
@@ -532,7 +552,8 @@ header i, header i:hover, header i:visited {
   color: #fff;
 }
 #menu .plat.plat--5:hover .plat__coche {
-  right: 0px;
+  -webkit-animation: coche 2000ms;
+          animation: coche 2000ms;
 }
 #menu .plat.plat--6 {
   display: flex;
@@ -587,7 +608,8 @@ header i, header i:hover, header i:visited {
   color: #fff;
 }
 #menu .plat.plat--6:hover .plat__coche {
-  right: 0px;
+  -webkit-animation: coche 2000ms;
+          animation: coche 2000ms;
 }
 #menu .plat.plat--7 {
   display: flex;
@@ -642,7 +664,8 @@ header i, header i:hover, header i:visited {
   color: #fff;
 }
 #menu .plat.plat--7:hover .plat__coche {
-  right: 0px;
+  -webkit-animation: coche 2000ms;
+          animation: coche 2000ms;
 }
 #menu .plat.plat--8 {
   display: flex;
@@ -697,7 +720,8 @@ header i, header i:hover, header i:visited {
   color: #fff;
 }
 #menu .plat.plat--8:hover .plat__coche {
-  right: 0px;
+  -webkit-animation: coche 2000ms;
+          animation: coche 2000ms;
 }
 #menu .plat.plat--9 {
   display: flex;
@@ -752,7 +776,8 @@ header i, header i:hover, header i:visited {
   color: #fff;
 }
 #menu .plat.plat--9:hover .plat__coche {
-  right: 0px;
+  -webkit-animation: coche 2000ms;
+          animation: coche 2000ms;
 }
 
 #menu h3 {

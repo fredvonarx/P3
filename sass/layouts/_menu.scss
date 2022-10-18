@@ -106,7 +106,7 @@
         }
         
         &:hover .plat__coche{
-            right: 0px;
+            animation: coche 2000ms;
         }
     }
 }
