@@ -298,18 +298,21 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
-#menu .plat.plat--1 i {
+#menu .plat.plat--1 .plat__coche {
   display: flex;
   width: 75px;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
-  right: 0px;
+  right: -75px;
   height: 70px;
   border-radius: 0;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+#menu .plat.plat--1:hover .plat__coche {
+  right: 0px;
 }
 #menu .plat.plat--2 {
   display: flex;
@@ -350,18 +353,21 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
-#menu .plat.plat--2 i {
+#menu .plat.plat--2 .plat__coche {
   display: flex;
   width: 75px;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
-  right: 0px;
+  right: -75px;
   height: 70px;
   border-radius: 0;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+#menu .plat.plat--2:hover .plat__coche {
+  right: 0px;
 }
 #menu .plat.plat--3 {
   display: flex;
@@ -402,18 +408,21 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
-#menu .plat.plat--3 i {
+#menu .plat.plat--3 .plat__coche {
   display: flex;
   width: 75px;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
-  right: 0px;
+  right: -75px;
   height: 70px;
   border-radius: 0;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+#menu .plat.plat--3:hover .plat__coche {
+  right: 0px;
 }
 #menu .plat.plat--4 {
   display: flex;
@@ -454,18 +463,21 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
-#menu .plat.plat--4 i {
+#menu .plat.plat--4 .plat__coche {
   display: flex;
   width: 75px;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
-  right: 0px;
+  right: -75px;
   height: 70px;
   border-radius: 0;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+#menu .plat.plat--4:hover .plat__coche {
+  right: 0px;
 }
 #menu .plat.plat--5 {
   display: flex;
@@ -506,18 +518,21 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
-#menu .plat.plat--5 i {
+#menu .plat.plat--5 .plat__coche {
   display: flex;
   width: 75px;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
-  right: 0px;
+  right: -75px;
   height: 70px;
   border-radius: 0;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+#menu .plat.plat--5:hover .plat__coche {
+  right: 0px;
 }
 #menu .plat.plat--6 {
   display: flex;
@@ -558,18 +573,21 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
-#menu .plat.plat--6 i {
+#menu .plat.plat--6 .plat__coche {
   display: flex;
   width: 75px;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
-  right: 0px;
+  right: -75px;
   height: 70px;
   border-radius: 0;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+#menu .plat.plat--6:hover .plat__coche {
+  right: 0px;
 }
 #menu .plat.plat--7 {
   display: flex;
@@ -610,18 +628,21 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
-#menu .plat.plat--7 i {
+#menu .plat.plat--7 .plat__coche {
   display: flex;
   width: 75px;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
-  right: 0px;
+  right: -75px;
   height: 70px;
   border-radius: 0;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+#menu .plat.plat--7:hover .plat__coche {
+  right: 0px;
 }
 #menu .plat.plat--8 {
   display: flex;
@@ -662,18 +683,21 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
-#menu .plat.plat--8 i {
+#menu .plat.plat--8 .plat__coche {
   display: flex;
   width: 75px;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
-  right: 0px;
+  right: -75px;
   height: 70px;
   border-radius: 0;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+#menu .plat.plat--8:hover .plat__coche {
+  right: 0px;
 }
 #menu .plat.plat--9 {
   display: flex;
@@ -714,18 +738,21 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
 }
-#menu .plat.plat--9 i {
+#menu .plat.plat--9 .plat__coche {
   display: flex;
   width: 75px;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
-  right: 0px;
+  right: -75px;
   height: 70px;
   border-radius: 0;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+#menu .plat.plat--9:hover .plat__coche {
+  right: 0px;
 }
 
 #menu h3 {

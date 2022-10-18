@@ -91,24 +91,30 @@
             font-size: 17px;
             font-weight: 800;
         }
-        i{
+        .plat__coche{
             display: flex;
             width: 75px;
             position: absolute;
             background-color: $couleur-fond-tertiaire;
             top: 0;
-            right: 0px;
+            right: -75px;
             height: $hauteur-plat;
             border-radius: 0;
             justify-content: center;
             align-items: center;
             color: $couleur-fond-blanc;
         }
+        
+        &:hover .plat__coche{
+            right: 0px;
+        }
     }
 }
 }
     }
 }
+
+
 
     #menu h3{
         position: relative;
