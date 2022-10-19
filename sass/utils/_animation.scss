@@ -30,7 +30,7 @@
         transform: scaleX(1);
     }
     100%{
-        transform: scale( - $largeur-coche);
+        transform: scaleX(1 - $largeur-coche);
     }
 }
 

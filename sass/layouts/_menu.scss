@@ -62,10 +62,6 @@
         position: relative;
         height: $hauteur-plat;
         overflow: hidden;
-        padding-left: map-get($paddings, padding-carte-texte);
-        padding-top: map-get($paddings, padding-carte-texte);
-        padding-bottom: map-get($paddings, padding-carte-texte);
-        padding-right: 29px + 25px;
         margin-bottom: map-get($paddings, padding-ecran);
         border-radius: 15px;
         box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, .2);
@@ -84,11 +80,18 @@
             flex-direction: column;
             justify-content: space-between;
             height: 100%;
+            padding-left: map-get($paddings, padding-carte-texte);
+            padding-top: map-get($paddings, padding-carte-texte);
+            padding-bottom: map-get($paddings, padding-carte-texte);
+            padding-right: 29px + 25px;
             p:first-child{
                 font-size: 17px;
                 font-weight: 800;
                 z-index: 0;
                 width: 100%;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
             }
             p:nth-child(2){
                 font-size: 16px;
@@ -136,7 +139,7 @@
         }
 
         &:hover .plat__desc{
-            animation: coche_p 1s 0s ease-in-out both;;
+            padding-right: 54px + 75px;
         }
 
     }
