@@ -334,27 +334,34 @@ header i, header i:hover, header i:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-#menu .plat.plat--1 p:first-child {
+#menu .plat.plat--1 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#menu .plat.plat--1 .plat__desc p:first-child {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
   width: 100%;
 }
-#menu .plat.plat--1 p:nth-child(2) {
-  font-size: 14px;
+#menu .plat.plat--1 .plat__desc p:nth-child(2) {
+  font-size: 16px;
   font-weight: 400;
   z-index: 0;
 }
-#menu .plat.plat--1 p:nth-child(3) {
+#menu .plat.plat--1 .plat__prix {
+  display: flex;
   position: absolute;
   height: 70px;
   margin: 0;
   right: 25px;
   bottom: 0;
   padding-top: 38px;
+  z-index: 1;
   font-size: 17px;
   font-weight: 800;
-  z-index: 1;
 }
 #menu .plat.plat--1 .plat__coche {
   display: flex;
@@ -377,12 +384,13 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_rotation 1s 0s ease-in-out both;
           animation: coche_rotation 1s 0s ease-in-out both;
 }
-#menu .plat.plat--1:hover p:nth-child(3) {
+#menu .plat.plat--1:hover .plat__prix {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
-#menu .plat.plat--1:hover p:nth-child(1) {
-  width: coche_p 1s 0s ease-in-out both;
+#menu .plat.plat--1:hover .plat__desc {
+  -webkit-animation: coche_p 1s 0s ease-in-out both;
+          animation: coche_p 1s 0s ease-in-out both;
 }
 #menu .plat.plat--2 {
   display: flex;
@@ -411,27 +419,34 @@ header i, header i:hover, header i:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-#menu .plat.plat--2 p:first-child {
+#menu .plat.plat--2 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#menu .plat.plat--2 .plat__desc p:first-child {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
   width: 100%;
 }
-#menu .plat.plat--2 p:nth-child(2) {
-  font-size: 14px;
+#menu .plat.plat--2 .plat__desc p:nth-child(2) {
+  font-size: 16px;
   font-weight: 400;
   z-index: 0;
 }
-#menu .plat.plat--2 p:nth-child(3) {
+#menu .plat.plat--2 .plat__prix {
+  display: flex;
   position: absolute;
   height: 70px;
   margin: 0;
   right: 25px;
   bottom: 0;
   padding-top: 38px;
+  z-index: 1;
   font-size: 17px;
   font-weight: 800;
-  z-index: 1;
 }
 #menu .plat.plat--2 .plat__coche {
   display: flex;
@@ -454,12 +469,13 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_rotation 1s 0s ease-in-out both;
           animation: coche_rotation 1s 0s ease-in-out both;
 }
-#menu .plat.plat--2:hover p:nth-child(3) {
+#menu .plat.plat--2:hover .plat__prix {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
-#menu .plat.plat--2:hover p:nth-child(1) {
-  width: coche_p 1s 0s ease-in-out both;
+#menu .plat.plat--2:hover .plat__desc {
+  -webkit-animation: coche_p 1s 0s ease-in-out both;
+          animation: coche_p 1s 0s ease-in-out both;
 }
 #menu .plat.plat--3 {
   display: flex;
@@ -488,27 +504,34 @@ header i, header i:hover, header i:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-#menu .plat.plat--3 p:first-child {
+#menu .plat.plat--3 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#menu .plat.plat--3 .plat__desc p:first-child {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
   width: 100%;
 }
-#menu .plat.plat--3 p:nth-child(2) {
-  font-size: 14px;
+#menu .plat.plat--3 .plat__desc p:nth-child(2) {
+  font-size: 16px;
   font-weight: 400;
   z-index: 0;
 }
-#menu .plat.plat--3 p:nth-child(3) {
+#menu .plat.plat--3 .plat__prix {
+  display: flex;
   position: absolute;
   height: 70px;
   margin: 0;
   right: 25px;
   bottom: 0;
   padding-top: 38px;
+  z-index: 1;
   font-size: 17px;
   font-weight: 800;
-  z-index: 1;
 }
 #menu .plat.plat--3 .plat__coche {
   display: flex;
@@ -531,12 +554,13 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_rotation 1s 0s ease-in-out both;
           animation: coche_rotation 1s 0s ease-in-out both;
 }
-#menu .plat.plat--3:hover p:nth-child(3) {
+#menu .plat.plat--3:hover .plat__prix {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
-#menu .plat.plat--3:hover p:nth-child(1) {
-  width: coche_p 1s 0s ease-in-out both;
+#menu .plat.plat--3:hover .plat__desc {
+  -webkit-animation: coche_p 1s 0s ease-in-out both;
+          animation: coche_p 1s 0s ease-in-out both;
 }
 #menu .plat.plat--4 {
   display: flex;
@@ -565,27 +589,34 @@ header i, header i:hover, header i:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-#menu .plat.plat--4 p:first-child {
+#menu .plat.plat--4 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#menu .plat.plat--4 .plat__desc p:first-child {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
   width: 100%;
 }
-#menu .plat.plat--4 p:nth-child(2) {
-  font-size: 14px;
+#menu .plat.plat--4 .plat__desc p:nth-child(2) {
+  font-size: 16px;
   font-weight: 400;
   z-index: 0;
 }
-#menu .plat.plat--4 p:nth-child(3) {
+#menu .plat.plat--4 .plat__prix {
+  display: flex;
   position: absolute;
   height: 70px;
   margin: 0;
   right: 25px;
   bottom: 0;
   padding-top: 38px;
+  z-index: 1;
   font-size: 17px;
   font-weight: 800;
-  z-index: 1;
 }
 #menu .plat.plat--4 .plat__coche {
   display: flex;
@@ -608,12 +639,13 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_rotation 1s 0s ease-in-out both;
           animation: coche_rotation 1s 0s ease-in-out both;
 }
-#menu .plat.plat--4:hover p:nth-child(3) {
+#menu .plat.plat--4:hover .plat__prix {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
-#menu .plat.plat--4:hover p:nth-child(1) {
-  width: coche_p 1s 0s ease-in-out both;
+#menu .plat.plat--4:hover .plat__desc {
+  -webkit-animation: coche_p 1s 0s ease-in-out both;
+          animation: coche_p 1s 0s ease-in-out both;
 }
 #menu .plat.plat--5 {
   display: flex;
@@ -642,27 +674,34 @@ header i, header i:hover, header i:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-#menu .plat.plat--5 p:first-child {
+#menu .plat.plat--5 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#menu .plat.plat--5 .plat__desc p:first-child {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
   width: 100%;
 }
-#menu .plat.plat--5 p:nth-child(2) {
-  font-size: 14px;
+#menu .plat.plat--5 .plat__desc p:nth-child(2) {
+  font-size: 16px;
   font-weight: 400;
   z-index: 0;
 }
-#menu .plat.plat--5 p:nth-child(3) {
+#menu .plat.plat--5 .plat__prix {
+  display: flex;
   position: absolute;
   height: 70px;
   margin: 0;
   right: 25px;
   bottom: 0;
   padding-top: 38px;
+  z-index: 1;
   font-size: 17px;
   font-weight: 800;
-  z-index: 1;
 }
 #menu .plat.plat--5 .plat__coche {
   display: flex;
@@ -685,12 +724,13 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_rotation 1s 0s ease-in-out both;
           animation: coche_rotation 1s 0s ease-in-out both;
 }
-#menu .plat.plat--5:hover p:nth-child(3) {
+#menu .plat.plat--5:hover .plat__prix {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
-#menu .plat.plat--5:hover p:nth-child(1) {
-  width: coche_p 1s 0s ease-in-out both;
+#menu .plat.plat--5:hover .plat__desc {
+  -webkit-animation: coche_p 1s 0s ease-in-out both;
+          animation: coche_p 1s 0s ease-in-out both;
 }
 #menu .plat.plat--6 {
   display: flex;
@@ -719,27 +759,34 @@ header i, header i:hover, header i:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-#menu .plat.plat--6 p:first-child {
+#menu .plat.plat--6 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#menu .plat.plat--6 .plat__desc p:first-child {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
   width: 100%;
 }
-#menu .plat.plat--6 p:nth-child(2) {
-  font-size: 14px;
+#menu .plat.plat--6 .plat__desc p:nth-child(2) {
+  font-size: 16px;
   font-weight: 400;
   z-index: 0;
 }
-#menu .plat.plat--6 p:nth-child(3) {
+#menu .plat.plat--6 .plat__prix {
+  display: flex;
   position: absolute;
   height: 70px;
   margin: 0;
   right: 25px;
   bottom: 0;
   padding-top: 38px;
+  z-index: 1;
   font-size: 17px;
   font-weight: 800;
-  z-index: 1;
 }
 #menu .plat.plat--6 .plat__coche {
   display: flex;
@@ -762,12 +809,13 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_rotation 1s 0s ease-in-out both;
           animation: coche_rotation 1s 0s ease-in-out both;
 }
-#menu .plat.plat--6:hover p:nth-child(3) {
+#menu .plat.plat--6:hover .plat__prix {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
-#menu .plat.plat--6:hover p:nth-child(1) {
-  width: coche_p 1s 0s ease-in-out both;
+#menu .plat.plat--6:hover .plat__desc {
+  -webkit-animation: coche_p 1s 0s ease-in-out both;
+          animation: coche_p 1s 0s ease-in-out both;
 }
 #menu .plat.plat--7 {
   display: flex;
@@ -796,27 +844,34 @@ header i, header i:hover, header i:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-#menu .plat.plat--7 p:first-child {
+#menu .plat.plat--7 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#menu .plat.plat--7 .plat__desc p:first-child {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
   width: 100%;
 }
-#menu .plat.plat--7 p:nth-child(2) {
-  font-size: 14px;
+#menu .plat.plat--7 .plat__desc p:nth-child(2) {
+  font-size: 16px;
   font-weight: 400;
   z-index: 0;
 }
-#menu .plat.plat--7 p:nth-child(3) {
+#menu .plat.plat--7 .plat__prix {
+  display: flex;
   position: absolute;
   height: 70px;
   margin: 0;
   right: 25px;
   bottom: 0;
   padding-top: 38px;
+  z-index: 1;
   font-size: 17px;
   font-weight: 800;
-  z-index: 1;
 }
 #menu .plat.plat--7 .plat__coche {
   display: flex;
@@ -839,12 +894,13 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_rotation 1s 0s ease-in-out both;
           animation: coche_rotation 1s 0s ease-in-out both;
 }
-#menu .plat.plat--7:hover p:nth-child(3) {
+#menu .plat.plat--7:hover .plat__prix {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
-#menu .plat.plat--7:hover p:nth-child(1) {
-  width: coche_p 1s 0s ease-in-out both;
+#menu .plat.plat--7:hover .plat__desc {
+  -webkit-animation: coche_p 1s 0s ease-in-out both;
+          animation: coche_p 1s 0s ease-in-out both;
 }
 #menu .plat.plat--8 {
   display: flex;
@@ -873,27 +929,34 @@ header i, header i:hover, header i:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-#menu .plat.plat--8 p:first-child {
+#menu .plat.plat--8 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#menu .plat.plat--8 .plat__desc p:first-child {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
   width: 100%;
 }
-#menu .plat.plat--8 p:nth-child(2) {
-  font-size: 14px;
+#menu .plat.plat--8 .plat__desc p:nth-child(2) {
+  font-size: 16px;
   font-weight: 400;
   z-index: 0;
 }
-#menu .plat.plat--8 p:nth-child(3) {
+#menu .plat.plat--8 .plat__prix {
+  display: flex;
   position: absolute;
   height: 70px;
   margin: 0;
   right: 25px;
   bottom: 0;
   padding-top: 38px;
+  z-index: 1;
   font-size: 17px;
   font-weight: 800;
-  z-index: 1;
 }
 #menu .plat.plat--8 .plat__coche {
   display: flex;
@@ -916,12 +979,13 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_rotation 1s 0s ease-in-out both;
           animation: coche_rotation 1s 0s ease-in-out both;
 }
-#menu .plat.plat--8:hover p:nth-child(3) {
+#menu .plat.plat--8:hover .plat__prix {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
-#menu .plat.plat--8:hover p:nth-child(1) {
-  width: coche_p 1s 0s ease-in-out both;
+#menu .plat.plat--8:hover .plat__desc {
+  -webkit-animation: coche_p 1s 0s ease-in-out both;
+          animation: coche_p 1s 0s ease-in-out both;
 }
 #menu .plat.plat--9 {
   display: flex;
@@ -950,27 +1014,34 @@ header i, header i:hover, header i:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-#menu .plat.plat--9 p:first-child {
+#menu .plat.plat--9 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#menu .plat.plat--9 .plat__desc p:first-child {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
   width: 100%;
 }
-#menu .plat.plat--9 p:nth-child(2) {
-  font-size: 14px;
+#menu .plat.plat--9 .plat__desc p:nth-child(2) {
+  font-size: 16px;
   font-weight: 400;
   z-index: 0;
 }
-#menu .plat.plat--9 p:nth-child(3) {
+#menu .plat.plat--9 .plat__prix {
+  display: flex;
   position: absolute;
   height: 70px;
   margin: 0;
   right: 25px;
   bottom: 0;
   padding-top: 38px;
+  z-index: 1;
   font-size: 17px;
   font-weight: 800;
-  z-index: 1;
 }
 #menu .plat.plat--9 .plat__coche {
   display: flex;
@@ -993,12 +1064,13 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_rotation 1s 0s ease-in-out both;
           animation: coche_rotation 1s 0s ease-in-out both;
 }
-#menu .plat.plat--9:hover p:nth-child(3) {
+#menu .plat.plat--9:hover .plat__prix {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
-#menu .plat.plat--9:hover p:nth-child(1) {
-  width: coche_p 1s 0s ease-in-out both;
+#menu .plat.plat--9:hover .plat__desc {
+  -webkit-animation: coche_p 1s 0s ease-in-out both;
+          animation: coche_p 1s 0s ease-in-out both;
 }
 
 #menu h3 {
@@ -1013,10 +1085,6 @@ header i, header i:hover, header i:visited {
   height: 2px;
   width: 40px;
   background-color: #99E2D0;
-}
-
-#menu .plat.plat--1 p:first-child {
-  font-weight: 800;
 }
 
 footer {
