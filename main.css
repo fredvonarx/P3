@@ -64,6 +64,22 @@
     transform: scale(-75px);
   }
 }
+@-webkit-keyframes coche_rotation {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes coche_rotation {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
 header {
   position: relative;
   background-color: #fff;
@@ -357,6 +373,10 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
+#menu .plat.plat--1:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
+}
 #menu .plat.plat--1:hover p:nth-child(3) {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
@@ -429,6 +449,10 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--2:hover .plat__coche {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--2:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
 }
 #menu .plat.plat--2:hover p:nth-child(3) {
   -webkit-animation: coche 1s 0s ease-in-out both;
@@ -503,6 +527,10 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
+#menu .plat.plat--3:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
+}
 #menu .plat.plat--3:hover p:nth-child(3) {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
@@ -575,6 +603,10 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--4:hover .plat__coche {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--4:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
 }
 #menu .plat.plat--4:hover p:nth-child(3) {
   -webkit-animation: coche 1s 0s ease-in-out both;
@@ -649,6 +681,10 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
+#menu .plat.plat--5:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
+}
 #menu .plat.plat--5:hover p:nth-child(3) {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
@@ -721,6 +757,10 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--6:hover .plat__coche {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--6:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
 }
 #menu .plat.plat--6:hover p:nth-child(3) {
   -webkit-animation: coche 1s 0s ease-in-out both;
@@ -795,6 +835,10 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
+#menu .plat.plat--7:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
+}
 #menu .plat.plat--7:hover p:nth-child(3) {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
@@ -868,6 +912,10 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
 }
+#menu .plat.plat--8:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
+}
 #menu .plat.plat--8:hover p:nth-child(3) {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
@@ -940,6 +988,10 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--9:hover .plat__coche {
   -webkit-animation: coche 1s 0s ease-in-out both;
           animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--9:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
 }
 #menu .plat.plat--9:hover p:nth-child(3) {
   -webkit-animation: coche 1s 0s ease-in-out both;

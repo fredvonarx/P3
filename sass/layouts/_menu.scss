@@ -119,6 +119,10 @@
             animation: coche 1s 0s ease-in-out both;
         }
 
+        &:hover .plat__coche i{
+            animation: coche_rotation 1s 0s ease-in-out both;
+        }
+
         &:hover p:nth-child(3){
             animation: coche 1s 0s ease-in-out both;
         }
