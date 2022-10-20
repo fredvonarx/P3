@@ -37,7 +37,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-75px);
+    transform: translateX(-100%);
   }
 }
 @keyframes coche {
@@ -45,23 +45,47 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-75px);
+    transform: translateX(-100%);
   }
 }
-@-webkit-keyframes coche_p {
+@-webkit-keyframes coche_desc {
   0% {
     transform: scaleX(1);
+    transform-origin: left;
   }
   100% {
-    transform: scaleX(-74px);
+    transform: scaleX(0.77);
+    transform-origin: left;
   }
 }
-@keyframes coche_p {
+@keyframes coche_desc {
   0% {
     transform: scaleX(1);
+    transform-origin: left;
   }
   100% {
-    transform: scaleX(-74px);
+    transform: scaleX(0.77);
+    transform-origin: left;
+  }
+}
+@-webkit-keyframes coche_desc_p {
+  0% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+@keyframes coche_desc_p {
+  0% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
   }
 }
 @-webkit-keyframes coche_rotation {
@@ -306,6 +330,9 @@ header i, header i:hover, header i:visited {
 #menu .plat {
   position: relative;
   display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 #menu .plat.plat--1 {
   display: flex;
@@ -323,7 +350,7 @@ header i, header i:hover, header i:visited {
           animation: apparition 100ms ease 300ms 1 normal both;
 }
 #menu .plat.plat--1 p {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -331,7 +358,7 @@ header i, header i:hover, header i:visited {
   overflow: hidden;
 }
 #menu .plat.plat--1 .plat__desc {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -341,10 +368,10 @@ header i, header i:hover, header i:visited {
   padding-right: 54px;
 }
 #menu .plat.plat--1 .plat__desc p:first-child {
+  display: block;
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -357,18 +384,21 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--1 .plat__prix {
   display: flex;
   position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 70px;
+  width: 23%;
   margin: 0;
   right: 25px;
   bottom: 0;
-  padding-top: 38px;
+  padding-bottom: 15px;
   z-index: 1;
   font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--1 .plat__coche {
   display: flex;
-  width: 75px;
+  width: 23%;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
@@ -392,7 +422,8 @@ header i, header i:hover, header i:visited {
           animation: coche 1s 0s ease-in-out both;
 }
 #menu .plat.plat--1:hover .plat__desc {
-  padding-right: 129px;
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
 }
 #menu .plat.plat--2 {
   display: flex;
@@ -410,7 +441,7 @@ header i, header i:hover, header i:visited {
           animation: apparition 100ms ease 600ms 1 normal both;
 }
 #menu .plat.plat--2 p {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -418,7 +449,7 @@ header i, header i:hover, header i:visited {
   overflow: hidden;
 }
 #menu .plat.plat--2 .plat__desc {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -428,10 +459,10 @@ header i, header i:hover, header i:visited {
   padding-right: 54px;
 }
 #menu .plat.plat--2 .plat__desc p:first-child {
+  display: block;
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -444,18 +475,21 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--2 .plat__prix {
   display: flex;
   position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 70px;
+  width: 23%;
   margin: 0;
   right: 25px;
   bottom: 0;
-  padding-top: 38px;
+  padding-bottom: 15px;
   z-index: 1;
   font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--2 .plat__coche {
   display: flex;
-  width: 75px;
+  width: 23%;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
@@ -479,7 +513,8 @@ header i, header i:hover, header i:visited {
           animation: coche 1s 0s ease-in-out both;
 }
 #menu .plat.plat--2:hover .plat__desc {
-  padding-right: 129px;
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
 }
 #menu .plat.plat--3 {
   display: flex;
@@ -497,7 +532,7 @@ header i, header i:hover, header i:visited {
           animation: apparition 100ms ease 900ms 1 normal both;
 }
 #menu .plat.plat--3 p {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -505,7 +540,7 @@ header i, header i:hover, header i:visited {
   overflow: hidden;
 }
 #menu .plat.plat--3 .plat__desc {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -515,10 +550,10 @@ header i, header i:hover, header i:visited {
   padding-right: 54px;
 }
 #menu .plat.plat--3 .plat__desc p:first-child {
+  display: block;
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -531,18 +566,21 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--3 .plat__prix {
   display: flex;
   position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 70px;
+  width: 23%;
   margin: 0;
   right: 25px;
   bottom: 0;
-  padding-top: 38px;
+  padding-bottom: 15px;
   z-index: 1;
   font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--3 .plat__coche {
   display: flex;
-  width: 75px;
+  width: 23%;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
@@ -566,7 +604,8 @@ header i, header i:hover, header i:visited {
           animation: coche 1s 0s ease-in-out both;
 }
 #menu .plat.plat--3:hover .plat__desc {
-  padding-right: 129px;
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
 }
 #menu .plat.plat--4 {
   display: flex;
@@ -584,7 +623,7 @@ header i, header i:hover, header i:visited {
           animation: apparition 100ms ease 1200ms 1 normal both;
 }
 #menu .plat.plat--4 p {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -592,7 +631,7 @@ header i, header i:hover, header i:visited {
   overflow: hidden;
 }
 #menu .plat.plat--4 .plat__desc {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -602,10 +641,10 @@ header i, header i:hover, header i:visited {
   padding-right: 54px;
 }
 #menu .plat.plat--4 .plat__desc p:first-child {
+  display: block;
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -618,18 +657,21 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--4 .plat__prix {
   display: flex;
   position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 70px;
+  width: 23%;
   margin: 0;
   right: 25px;
   bottom: 0;
-  padding-top: 38px;
+  padding-bottom: 15px;
   z-index: 1;
   font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--4 .plat__coche {
   display: flex;
-  width: 75px;
+  width: 23%;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
@@ -653,7 +695,8 @@ header i, header i:hover, header i:visited {
           animation: coche 1s 0s ease-in-out both;
 }
 #menu .plat.plat--4:hover .plat__desc {
-  padding-right: 129px;
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
 }
 #menu .plat.plat--5 {
   display: flex;
@@ -671,7 +714,7 @@ header i, header i:hover, header i:visited {
           animation: apparition 100ms ease 1500ms 1 normal both;
 }
 #menu .plat.plat--5 p {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -679,7 +722,7 @@ header i, header i:hover, header i:visited {
   overflow: hidden;
 }
 #menu .plat.plat--5 .plat__desc {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -689,10 +732,10 @@ header i, header i:hover, header i:visited {
   padding-right: 54px;
 }
 #menu .plat.plat--5 .plat__desc p:first-child {
+  display: block;
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -705,18 +748,21 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--5 .plat__prix {
   display: flex;
   position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 70px;
+  width: 23%;
   margin: 0;
   right: 25px;
   bottom: 0;
-  padding-top: 38px;
+  padding-bottom: 15px;
   z-index: 1;
   font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--5 .plat__coche {
   display: flex;
-  width: 75px;
+  width: 23%;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
@@ -740,7 +786,8 @@ header i, header i:hover, header i:visited {
           animation: coche 1s 0s ease-in-out both;
 }
 #menu .plat.plat--5:hover .plat__desc {
-  padding-right: 129px;
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
 }
 #menu .plat.plat--6 {
   display: flex;
@@ -758,7 +805,7 @@ header i, header i:hover, header i:visited {
           animation: apparition 100ms ease 1800ms 1 normal both;
 }
 #menu .plat.plat--6 p {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -766,7 +813,7 @@ header i, header i:hover, header i:visited {
   overflow: hidden;
 }
 #menu .plat.plat--6 .plat__desc {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -776,10 +823,10 @@ header i, header i:hover, header i:visited {
   padding-right: 54px;
 }
 #menu .plat.plat--6 .plat__desc p:first-child {
+  display: block;
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -792,18 +839,21 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--6 .plat__prix {
   display: flex;
   position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 70px;
+  width: 23%;
   margin: 0;
   right: 25px;
   bottom: 0;
-  padding-top: 38px;
+  padding-bottom: 15px;
   z-index: 1;
   font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--6 .plat__coche {
   display: flex;
-  width: 75px;
+  width: 23%;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
@@ -827,7 +877,8 @@ header i, header i:hover, header i:visited {
           animation: coche 1s 0s ease-in-out both;
 }
 #menu .plat.plat--6:hover .plat__desc {
-  padding-right: 129px;
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
 }
 #menu .plat.plat--7 {
   display: flex;
@@ -845,7 +896,7 @@ header i, header i:hover, header i:visited {
           animation: apparition 100ms ease 2100ms 1 normal both;
 }
 #menu .plat.plat--7 p {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -853,7 +904,7 @@ header i, header i:hover, header i:visited {
   overflow: hidden;
 }
 #menu .plat.plat--7 .plat__desc {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -863,10 +914,10 @@ header i, header i:hover, header i:visited {
   padding-right: 54px;
 }
 #menu .plat.plat--7 .plat__desc p:first-child {
+  display: block;
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -879,18 +930,21 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--7 .plat__prix {
   display: flex;
   position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 70px;
+  width: 23%;
   margin: 0;
   right: 25px;
   bottom: 0;
-  padding-top: 38px;
+  padding-bottom: 15px;
   z-index: 1;
   font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--7 .plat__coche {
   display: flex;
-  width: 75px;
+  width: 23%;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
@@ -914,7 +968,8 @@ header i, header i:hover, header i:visited {
           animation: coche 1s 0s ease-in-out both;
 }
 #menu .plat.plat--7:hover .plat__desc {
-  padding-right: 129px;
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
 }
 #menu .plat.plat--8 {
   display: flex;
@@ -932,7 +987,7 @@ header i, header i:hover, header i:visited {
           animation: apparition 100ms ease 2400ms 1 normal both;
 }
 #menu .plat.plat--8 p {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -940,7 +995,7 @@ header i, header i:hover, header i:visited {
   overflow: hidden;
 }
 #menu .plat.plat--8 .plat__desc {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -950,10 +1005,10 @@ header i, header i:hover, header i:visited {
   padding-right: 54px;
 }
 #menu .plat.plat--8 .plat__desc p:first-child {
+  display: block;
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -966,18 +1021,21 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--8 .plat__prix {
   display: flex;
   position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 70px;
+  width: 23%;
   margin: 0;
   right: 25px;
   bottom: 0;
-  padding-top: 38px;
+  padding-bottom: 15px;
   z-index: 1;
   font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--8 .plat__coche {
   display: flex;
-  width: 75px;
+  width: 23%;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
@@ -1001,7 +1059,8 @@ header i, header i:hover, header i:visited {
           animation: coche 1s 0s ease-in-out both;
 }
 #menu .plat.plat--8:hover .plat__desc {
-  padding-right: 129px;
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
 }
 #menu .plat.plat--9 {
   display: flex;
@@ -1019,7 +1078,7 @@ header i, header i:hover, header i:visited {
           animation: apparition 100ms ease 2700ms 1 normal both;
 }
 #menu .plat.plat--9 p {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -1027,7 +1086,7 @@ header i, header i:hover, header i:visited {
   overflow: hidden;
 }
 #menu .plat.plat--9 .plat__desc {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -1037,10 +1096,10 @@ header i, header i:hover, header i:visited {
   padding-right: 54px;
 }
 #menu .plat.plat--9 .plat__desc p:first-child {
+  display: block;
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -1053,18 +1112,21 @@ header i, header i:hover, header i:visited {
 #menu .plat.plat--9 .plat__prix {
   display: flex;
   position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 70px;
+  width: 23%;
   margin: 0;
   right: 25px;
   bottom: 0;
-  padding-top: 38px;
+  padding-bottom: 15px;
   z-index: 1;
   font-size: 17px;
   font-weight: 800;
 }
 #menu .plat.plat--9 .plat__coche {
   display: flex;
-  width: 75px;
+  width: 23%;
   position: absolute;
   background-color: #99E2D0;
   top: 0;
@@ -1088,7 +1150,8 @@ header i, header i:hover, header i:visited {
           animation: coche 1s 0s ease-in-out both;
 }
 #menu .plat.plat--9:hover .plat__desc {
-  padding-right: 129px;
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
 }
 
 #menu h3 {

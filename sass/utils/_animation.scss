@@ -21,16 +21,29 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(-$largeur-coche);
+        transform: translateX(-100%);
     }
 }
 
-@keyframes coche_p{
+@keyframes coche_desc{
     0%{
         transform: scaleX(1);
+        transform-origin: left;
     }
     100%{
-        transform: scaleX(1 - $largeur-coche);
+        transform: scaleX(0.77);
+        transform-origin: left;
+    }
+}
+
+@keyframes coche_desc_p{
+    0%{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    100%{
+        transform: scaleX(1);
+        transform-origin: left;
     }
 }
 
