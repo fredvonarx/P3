@@ -3,6 +3,7 @@
 @import "./sass/utils/fonction";
 @import "./sass/utils/animation";
 @import "./sass/utils/mixins";
+@import "./sass/utils/chargement";
 @import "./sass/layouts/header";
 @import "./sass/layouts/explorer";
 @import "./sass/layouts/fonctionnement";
@@ -13,10 +14,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
-
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+body{
+    position: relative;
 }
 
 h1{
