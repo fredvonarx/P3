@@ -25,24 +25,35 @@
     }
 }
 
-@keyframes coche_desc{
+@keyframes coche_prix{
     0%{
         transform: scaleX(1);
-        transform-origin: left;
+        transform-origin: right;
     }
     100%{
-        transform: scaleX(0.77);
-        transform-origin: left;
+        transform: scaleX(2);
+        transform-origin: right;
     }
 }
 
-@keyframes coche_desc_p{
+@keyframes coche_desc{
     0%{
+        padding-right: 0px;
+    }
+    100%{
+        padding-right: 70px;
+    }
+}
+    
+
+
+@keyframes coche_desc_p{
+    from{
         transform: scaleX(1);
         transform-origin: left;
     }
-    100%{
-        transform: scaleX(1);
+    to{
+        transform: scaleX(1.01);
         transform-origin: left;
     }
 }
