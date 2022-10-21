@@ -21,7 +21,7 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(-100%);
+        transform: translateX(-70px);
     }
 }
 
@@ -38,10 +38,10 @@
 
 @keyframes coche_desc{
     0%{
-        padding-right: 0px;
+        padding-right: 75px;
     }
     100%{
-        padding-right: 70px;
+        padding-right: 145px;
     }
 }
     
