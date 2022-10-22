@@ -9,6 +9,15 @@
     height: 100vh;
     width: 100%;
     animation: disparition 1s linear 40s 1 normal both;
+    p{
+        position: absolute;
+        left: center;
+        top: 60vh;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 18px;
+        color: $couleur-fond-blanc;
+    }
     .sablier{
         display: flex;
         flex-direction: column;
@@ -21,6 +30,7 @@
         .sablier{
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             align-items: center;
             background-color: $couleur-fond-blanc;
             height: 100%;
@@ -41,7 +51,7 @@
                     padding: 0;
                     background: linear-gradient(to bottom right, $couleur-fond-secondaire,$couleur-fond-tertiaire);
                     transform-origin: top;
-                    animation: sablier-tombe 1s ease-in-out 0s 1 normal both;
+                    animation: sablier-tombe 1s ease-in-out 0s 2 alternate both;
                 }
             }
             &--2{
@@ -50,6 +60,8 @@
                 background-color: $couleur-fond-blanc;
             }
             &--3{
+                display: flex;
+                justify-content: flex-end;
                 height: 48%;
                 border-radius: 30% 30% 3% 3%;
                 background-color: $couleur-fond-blanc;
@@ -60,7 +72,7 @@
                     padding: 0;
                     background: linear-gradient(to bottom right, $couleur-fond-secondaire,$couleur-fond-tertiaire);
                     transform-origin: bottom;
-                    animation: sablier-tombe 1s ease-in-out 0s 1 reverse both;
+                    animation: sablier-tombe 1s ease-in-out 0s 2 alternate-reverse both;
                 }
             }
         }
