@@ -5,7 +5,7 @@
     align-items: center;
     top: 0;
     left: 0;
-    background-color: $couleur-fond-secondaire;
+    background: linear-gradient(to bottom right, $couleur-fond-secondaire,$couleur-fond-tertiaire);;
     height: 100vh;
     width: 100%;
     animation: disparition 1s linear 40s 1 normal both;
@@ -22,25 +22,46 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: $couleur-fond-primaire;
+            background-color: $couleur-fond-blanc;
             height: 100%;
             width: 100%;
             border: solid $couleur-fond-blanc 3px;
             &.partie{
+                display: flex;
+                justify-content: flex-end;
             &--1{
+                display: flex;
+                justify-content: flex-end;
                 height: 48%;
-                border-radius: 3% 3% 45% 45%;
-                background: linear-gradient(to bottom right, $couleur-fond-secondaire, $couleur-fond-tertiaire);
+                border-radius: 3% 3% 30% 30%;
+                &.remplissage{
+                    height: 100%;
+                    width: 100%;
+                    border: none;
+                    padding: 0;
+                    background: linear-gradient(to bottom right, $couleur-fond-secondaire,$couleur-fond-tertiaire);
+                    transform-origin: top;
+                    animation: sablier-tombe 1s ease-in-out 0s 1 normal both;
+                }
             }
             &--2{
                 height: 4%;
-                width: 20%;
+                width: 40%;
                 background-color: $couleur-fond-blanc;
             }
             &--3{
                 height: 48%;
-                border-radius: 45% 45% 3% 3%;
+                border-radius: 30% 30% 3% 3%;
                 background-color: $couleur-fond-blanc;
+                &.remplissage{
+                    height: 100%;
+                    width: 100%;
+                    border: none;
+                    padding: 0;
+                    background: linear-gradient(to bottom right, $couleur-fond-secondaire,$couleur-fond-tertiaire);
+                    transform-origin: bottom;
+                    animation: sablier-tombe 1s ease-in-out 0s 1 reverse both;
+                }
             }
         }
         }
