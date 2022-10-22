@@ -146,13 +146,41 @@
   background-color: #FF79DA;
   height: 100vh;
   width: 100%;
-  -webkit-animation: disparition 2s linear 0.5s 1 normal both;
-          animation: disparition 2s linear 0.5s 1 normal both;
+  -webkit-animation: disparition 1s linear 40s 1 normal both;
+          animation: disparition 1s linear 40s 1 normal both;
 }
 #chargement .sablier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 21vh;
   width: 21vw;
   padding: 1vh;
+  background-color: #9356DC;
+  border-radius: 5%;
+}
+#chargement .sablier .sablier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9356DC;
+  height: 100%;
+  width: 100%;
+  border: solid #fff 3px;
+}
+#chargement .sablier .sablier.partie--1 {
+  height: 48%;
+  border-radius: 3% 3% 45% 45%;
+  background: linear-gradient(to bottom right, #FF79DA, #99E2D0);
+}
+#chargement .sablier .sablier.partie--2 {
+  height: 4%;
+  width: 20%;
+  background-color: #fff;
+}
+#chargement .sablier .sablier.partie--3 {
+  height: 48%;
+  border-radius: 45% 45% 3% 3%;
   background-color: #fff;
 }
 

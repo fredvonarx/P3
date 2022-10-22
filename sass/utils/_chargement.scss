@@ -8,12 +8,42 @@
     background-color: $couleur-fond-secondaire;
     height: 100vh;
     width: 100%;
-    animation: disparition 2s linear 0.5s 1 normal both;
+    animation: disparition 1s linear 40s 1 normal both;
     .sablier{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: 21vh;
         width: 21vw;
         padding: 1vh;
-        background-color: $couleur-fond-blanc;
+        background-color: $couleur-fond-primaire;
+        border-radius: 5%;
+        .sablier{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: $couleur-fond-primaire;
+            height: 100%;
+            width: 100%;
+            border: solid $couleur-fond-blanc 3px;
+            &.partie{
+            &--1{
+                height: 48%;
+                border-radius: 3% 3% 45% 45%;
+                background: linear-gradient(to bottom right, $couleur-fond-secondaire, $couleur-fond-tertiaire);
+            }
+            &--2{
+                height: 4%;
+                width: 20%;
+                background-color: $couleur-fond-blanc;
+            }
+            &--3{
+                height: 48%;
+                border-radius: 45% 45% 3% 3%;
+                background-color: $couleur-fond-blanc;
+            }
+        }
+        }
     }
 }
 
