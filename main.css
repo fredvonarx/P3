@@ -120,27 +120,40 @@
     transform: rotateZ(360deg);
   }
 }
+@-webkit-keyframes disparition {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes disparition {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
 #chargement {
   display: flex;
-  position: absolute;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
   top: 0;
   left: 0;
   background-color: #FF79DA;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  -webkit-animation: disparition 2s linear 0.5s 1 normal both;
+          animation: disparition 2s linear 0.5s 1 normal both;
 }
-#chargement .loader {
-  position: relative;
-  display: flex;
-  height: 5vw;
-  width: 5vw;
-  border-radius: 2.5vw;
+#chargement .sablier {
+  height: 11vh;
+  width: 11vw;
+  padding: 1vh;
   background-color: #fff;
-}
-#chargement .loader.loader--1 {
-  position: absolute;
-  left: 25vw;
-  top: 25vw;
 }
 
 header {

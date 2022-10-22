@@ -1,22 +1,19 @@
 #chargement{
     display: flex;
-    position: absolute;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     background-color: $couleur-fond-secondaire;
     height: 100vh;
-    width: 100vw;
-    .loader{
-        position: relative;
-        display: flex;
-        height: 5vw;
-        width: 5vw;
-        border-radius: 2.5vw;
+    width: 100%;
+    animation: disparition 2s linear 0.5s 1 normal both;
+    .sablier{
+        height: 11vh;
+        width: 11vw;
+        padding: 1vh;
         background-color: $couleur-fond-blanc;
-        &.loader--1{
-            position: absolute;
-            left: 25vw;
-            top: 25vw;
-        }
     }
 }
+

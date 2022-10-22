@@ -66,3 +66,12 @@
         transform: rotateZ(360deg);
     }
 }
+
+@keyframes disparition{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
