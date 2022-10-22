@@ -150,9 +150,9 @@
           animation: disparition 2s linear 0.5s 1 normal both;
 }
 #chargement .sablier {
-  height: 11vh;
-  width: 11vw;
-  padding: 1vh;
+  height: 21vh;
+  width: 21vw;
+  padding: 2vh;
   background-color: #fff;
 }
 
