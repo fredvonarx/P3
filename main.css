@@ -534,7 +534,8 @@ header i, header i:hover, header i:visited {
   right: 15px;
   padding: 0;
   background-color: #99E2D0;
-  color: #2c9c81;
+  color: #278870;
+  border-radius: 5px;
 }
 #restaurants a .nouveau p {
   padding: 0;
