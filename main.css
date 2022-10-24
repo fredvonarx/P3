@@ -368,7 +368,7 @@ header {
 header img:nth-child(1) {
   width: 45%;
   display: flex;
-  margin: 25px 25px 0 25px;
+  margin: 25px 25px 6.25px 25px;
 }
 header img:nth-child(2) {
   width: 100%;
@@ -378,7 +378,7 @@ header img:nth-child(2) {
 header a {
   position: absolute;
   top: 25px;
-  left: 50px;
+  left: 25px;
 }
 
 header i, header i:hover, header i:visited {
@@ -537,6 +537,7 @@ header i, header i:hover, header i:visited {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   position: relative;
 }
 #menu h1 i {

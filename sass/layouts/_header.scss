@@ -8,7 +8,7 @@ header{
     img:nth-child(1){
         width: 45%;
         display: flex;  
-        margin: map-get($paddings, padding-ecran) map-get($paddings, padding-ecran) 0 map-get($paddings, padding-ecran);
+        margin: map-get($paddings, padding-ecran) map-get($paddings, padding-ecran) map-get($paddings, padding-ecran)/4 map-get($paddings, padding-ecran);
     }
     img:nth-child(2){
         width: 100%;
@@ -17,8 +17,8 @@ header{
     }
     a{
         position: absolute;
-        top: 25px;
-        left: 50px;
+        top: map-get($paddings, padding-ecran);
+        left: 25px;
     }
 }
 
