@@ -1473,6 +1473,10 @@ footer {
   color: #fff;
   padding: 25px;
 }
+footer a {
+  background-color: #000;
+  color: #fff;
+}
 
 footer i {
   margin-right: 10px;
