@@ -501,7 +501,7 @@ header i, header i:hover, header i:visited {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 240px;
+  height: 225px;
   width: 100%;
   margin-bottom: 15px;
   border-radius: 25px;
@@ -525,7 +525,7 @@ header i, header i:hover, header i:visited {
   display: flex;
   position: absolute;
   cursor: pointer;
-  bottom: 35px;
+  bottom: 15px;
   right: 25px;
 }
 #restaurants a .remplissage .fa-full {
