@@ -563,6 +563,36 @@ header i, header i:hover, header i:visited {
   font-weight: 500;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  #restaurants {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #restaurants .restaurant--carte {
+    width: 48%;
+  }
+  #restaurants h2 {
+    display: flex;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #restaurants {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #restaurants .restaurant--carte {
+    width: 24%;
+  }
+  #restaurants h2 {
+    display: flex;
+    width: 100%;
+  }
+}
 #menu {
   display: flex;
   flex-direction: column;
