@@ -604,6 +604,12 @@ header i, header i:hover, header i:visited {
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   border-radius: 35px;
 }
+#menu .btn:hover {
+  background-color: #ff88de;
+  color: #fff;
+  background: linear-gradient(to bottom right, #ff88de, #9b63df);
+  box-shadow: 5px 5px 15px 3px rgba(50, 50, 50, 0.3);
+}
 #menu .plat {
   position: relative;
   display: flex;
