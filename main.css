@@ -459,6 +459,9 @@ header i, header i:hover, header i:visited {
   background-color: #F5EDFF;
   color: #000;
 }
+#fonctionnement .btn:hover i {
+  color: #9356DC;
+}
 #fonctionnement .btn i {
   margin: 0 15px 0 15px;
 }
@@ -521,7 +524,7 @@ header i, header i:hover, header i:visited {
 #restaurants a i {
   position: absolute;
   bottom: 35px;
-  right: 50px;
+  right: 25px;
 }
 #restaurants a .nouveau {
   display: flex;
