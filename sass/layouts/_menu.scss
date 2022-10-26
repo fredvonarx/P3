@@ -17,11 +17,7 @@
             right: 30px;
             background: $couleur-fond-gris-clair;
         }
-        .contour{
-            color: $couleur-fond-noir;
-            background: transparent;
-        }
-        .remplissage {
+        &.remplissage {
             cursor: pointer;
           }
           .remplissage .fa-full {

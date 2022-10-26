@@ -37,11 +37,23 @@
             margin: 0 0 map-get($paddings, padding-carte-texte) map-get($paddings, padding-carte-texte);
             height: $hauteur-p-restaurant-index-mobile;
         }
-        i{
+        .remplissage{
+            display: flex;
             position: absolute;
+            cursor: pointer;
             bottom: 35px;
             right: 25px;
         }
+          .remplissage .fa-full {
+            opacity: 0;
+            transition: 1s;
+            background: linear-gradient(#9356DC 20%, #FF79DA);
+            background-clip: text;
+            color: transparent;
+          }
+          .remplissage .fa-full:hover {
+            opacity: 1;
+          }
         .nouveau{
             display: flex;
             justify-content: center;

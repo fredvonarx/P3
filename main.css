@@ -521,10 +521,23 @@ header i, header i:hover, header i:visited {
   margin: 0 0 15px 15px;
   height: 15px;
 }
-#restaurants a i {
+#restaurants a .remplissage {
+  display: flex;
   position: absolute;
+  cursor: pointer;
   bottom: 35px;
   right: 25px;
+}
+#restaurants a .remplissage .fa-full {
+  opacity: 0;
+  transition: 1s;
+  background: linear-gradient(#9356DC 20%, #FF79DA);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+#restaurants a .remplissage .fa-full:hover {
+  opacity: 1;
 }
 #restaurants a .nouveau {
   display: flex;
@@ -569,11 +582,7 @@ header i, header i:hover, header i:visited {
   right: 30px;
   background: #f2f2f2;
 }
-#menu h1 .contour {
-  color: #000;
-  background: transparent;
-}
-#menu h1 .remplissage {
+#menu h1.remplissage {
   cursor: pointer;
 }
 #menu h1 .remplissage .fa-full {
