@@ -615,7 +615,7 @@ header i, header i:hover, header i:visited {
   right: 30px;
   background: #f2f2f2;
 }
-#menu h1.remplissage {
+#menu h1 .remplissage {
   cursor: pointer;
 }
 #menu h1 .remplissage .fa-full {
@@ -1539,6 +1539,36 @@ header i, header i:hover, header i:visited {
   background-color: #99E2D0;
 }
 
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #menu .menu {
+    width: 48%;
+  }
+  #menu h1 {
+    display: flex;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #menu .menu {
+    width: 32%;
+  }
+  #menu h1 {
+    display: flex;
+    width: 100%;
+  }
+}
 footer {
   display: flex;
   flex-direction: column;

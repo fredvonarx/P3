@@ -17,7 +17,7 @@
             right: 30px;
             background: $couleur-fond-gris-clair;
         }
-        &.remplissage {
+        .remplissage {
             cursor: pointer;
           }
           .remplissage .fa-full {
@@ -175,3 +175,35 @@
         width: 40px;
         background-color: $couleur-fond-tertiaire;
     } 
+
+    @media screen and (min-width: 700px) and (max-width: 1200px) {
+        #menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .menu{
+                width: 48%;
+            }
+            h1{
+                display: flex;
+                width: 100%;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1000px){
+        #menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .menu{
+                width: 32%;
+            }
+            h1{
+                display: flex;
+                width: 100%;
+            }
+        }
+    }
