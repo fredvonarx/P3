@@ -429,10 +429,10 @@ header i, header i:hover, header i:visited {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #DEDEDE;
+  background: linear-gradient(to bottom, #ababab, #DEDEDE 10%);
 }
 #explorer form i {
-  margin-right: 4%;
+  margin-right: 15px;
 }
 #explorer form input {
   background-color: #DEDEDE;

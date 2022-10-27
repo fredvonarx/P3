@@ -34,9 +34,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: $couleur-fond-gris-fonce;
+    background: linear-gradient(to bottom, darken($couleur-fond-gris-fonce, 20%), $couleur-fond-gris-fonce 10%);
     i{
-        margin-right: 4%;
+        margin-right: 15px;
     }
     input{
         background-color: $couleur-fond-gris-fonce;
