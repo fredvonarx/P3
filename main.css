@@ -268,6 +268,110 @@
     transform: rotateZ(360deg);
   }
 }
+@-webkit-keyframes sablier-3-h {
+  0% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+  10% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  80% {
+    transform: scaleY(0);
+  }
+  90% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes sablier-3-h {
+  0% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+  10% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  80% {
+    transform: scaleY(0);
+  }
+  90% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@-webkit-keyframes sablier-1-h {
+  0% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  10% {
+    transform: scaleY(0);
+  }
+  40% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  80% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  90% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(0);
+  }
+}
+@keyframes sablier-1-h {
+  0% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  10% {
+    transform: scaleY(0);
+  }
+  40% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  80% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  90% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(0);
+  }
+}
 #chargement {
   display: flex;
   position: fixed;
@@ -278,8 +382,8 @@
   background: linear-gradient(to bottom right, #FF79DA, #99E2D0);
   height: 100vh;
   width: 100%;
-  -webkit-animation: disparition 0.5s linear 3s 1 normal both;
-          animation: disparition 0.5s linear 3s 1 normal both;
+  -webkit-animation: disparition 0.5s linear 5s 1 normal both;
+          animation: disparition 0.5s linear 5s 1 normal both;
 }
 #chargement p {
   position: absolute;
@@ -295,9 +399,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 21vh;
-  width: 21vw;
-  padding: 1vh;
+  height: 100px;
+  width: 60px;
+  padding: 4px;
   background-color: #9356DC;
   border-radius: 5%;
   -webkit-animation: sablier-rotation 5s ease-in-out 1 normal both;
@@ -312,7 +416,7 @@
   height: 100%;
   width: 100%;
   border: solid #fff 3px;
-  padding: 1vh;
+  padding: 4%;
 }
 #chargement .encart .sablier.partie {
   display: flex;
@@ -330,9 +434,8 @@
   border: none;
   padding: 0;
   background: linear-gradient(to bottom right, #FF79DA, #99E2D0);
-  transform-origin: top;
-  -webkit-animation: sablier-1 5s ease-in-out 0s 4 normal both;
-          animation: sablier-1 5s ease-in-out 0s 4 normal both;
+  -webkit-animation: sablier-1-h 5s ease-in-out 0s 4 normal both;
+          animation: sablier-1-h 5s ease-in-out 0s 4 normal both;
 }
 #chargement .encart .sablier.partie--2 {
   height: 4%;
@@ -352,9 +455,8 @@
   border: none;
   padding: 0;
   background: linear-gradient(to bottom right, #FF79DA, #99E2D0);
-  transform-origin: bottom;
-  -webkit-animation: sablier-3 5s ease-in-out 0s 4 normal both;
-          animation: sablier-3 5s ease-in-out 0s 4 normal both;
+  -webkit-animation: sablier-3-h 5s ease-in-out 0s 4 normal both;
+          animation: sablier-3-h 5s ease-in-out 0s 4 normal both;
 }
 
 header {

@@ -8,7 +8,7 @@
     background: linear-gradient(to bottom right, $couleur-fond-secondaire,$couleur-fond-tertiaire);;
     height: 100vh;
     width: 100%;
-    animation: disparition 0.5s linear 3s 1 normal both;
+    animation: disparition 0.5s linear 5s 1 normal both;
     p{
         position: absolute;
         left: center;
@@ -23,9 +23,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 21vh;
-        width: 21vw;
-        padding: 1vh;
+        height: 100px;
+        width: 60px;
+        padding: 4px;
         background-color: $couleur-fond-primaire;
         border-radius: 5%;
         animation: sablier-rotation 5s ease-in-out 1 normal both;
@@ -38,7 +38,7 @@
             height: 100%;
             width: 100%;
             border: solid $couleur-fond-blanc 3px;
-            padding: 1vh;
+            padding: 4%;
             &.partie{
                 display: flex;
                 justify-content: flex-end;
@@ -53,8 +53,7 @@
                     border: none;
                     padding: 0;
                     background: linear-gradient(to bottom right, $couleur-fond-secondaire,$couleur-fond-tertiaire);
-                    transform-origin: top;
-                    animation: sablier-1 5s ease-in-out 0s 4 normal both;
+                    animation: sablier-1-h 5s ease-in-out 0s 4 normal both;
                 }
             }
             &--2{
@@ -74,8 +73,7 @@
                     border: none;
                     padding: 0;
                     background: linear-gradient(to bottom right, $couleur-fond-secondaire,$couleur-fond-tertiaire);
-                    transform-origin: bottom;
-                    animation: sablier-3 5s ease-in-out 0s 4 normal both;
+                    animation: sablier-3-h 5s ease-in-out 0s 4 normal both;
                 }
             }
         }
