@@ -256,8 +256,8 @@
   background: linear-gradient(to bottom right, #FF79DA, #99E2D0);
   height: 100vh;
   width: 100%;
-  -webkit-animation: disparition 0.5s linear 5s 1 normal both;
-          animation: disparition 0.5s linear 5s 1 normal both;
+  -webkit-animation: disparition 0.5s linear 3s 1 normal both;
+          animation: disparition 0.5s linear 3s 1 normal both;
 }
 #chargement p {
   position: absolute;

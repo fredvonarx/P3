@@ -14,16 +14,16 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(-70px);
+        transform: translateX(-$largeur-boite-coche);
     }
 }
 
 @keyframes coche_desc{
     0%{
-        padding-right: 75px;
+        padding-right: $largeur-boite-coche + 5px;
     }
     100%{
-        padding-right: 145px;
+        padding-right: $largeur-boite-coche * 2 + 5px;
     }
 }
 
