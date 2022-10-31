@@ -149,11 +149,11 @@
             animation: coche_rotation 1s 0s ease-in-out both;
         }
 
-        &:active .plat__prix{
+        &:hover .plat__prix{
             animation: coche 1s 0s ease-in-out both;
         }
 
-        &:active .plat__desc{
+        &:hover .plat__desc{
             animation: coche_desc 1s 0s ease-in-out both;
         }
     }
@@ -177,7 +177,7 @@
         background-color: $couleur-fond-tertiaire;
     } 
 
-    @media screen and (min-width: 700px) and (max-width: 1200px) {
+    @media screen and (min-width: 700px) and (max-width: 1000px) {
         #menu{
             display: flex;
             flex-direction: row;
