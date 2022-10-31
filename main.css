@@ -482,6 +482,9 @@ header i, header i:hover, header i:visited {
        object-fit: cover;
     overflow: visible;
   }
+  header a {
+    top: 50px;
+  }
 }
 #explorer {
   display: flex;

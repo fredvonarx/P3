@@ -42,5 +42,8 @@ header{
         object-fit: cover;
         overflow: visible;
     }
+    a{
+        top: map-get($paddings, padding-ecran)*2;
+    }
 }
 }
