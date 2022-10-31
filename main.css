@@ -16,20 +16,24 @@
     transform: scaleY(0);
   }
 }
-@-webkit-keyframes apparition {
+@-webkit-keyframes apparition-menu {
   0% {
     opacity: 0;
+    transform: translateY(50px);
   }
   100% {
     opacity: 1;
+    transform: translateY(0px);
   }
 }
-@keyframes apparition {
+@keyframes apparition-menu {
   0% {
     opacity: 0;
+    transform: translateY(50px);
   }
   100% {
     opacity: 1;
+    transform: translateY(0px);
   }
 }
 @-webkit-keyframes coche {
@@ -232,17 +236,14 @@
   0% {
     transform: rotateZ(0);
   }
-  20% {
+  40% {
     transform: rotateZ(0);
   }
-  30% {
+  50% {
     transform: rotateZ(180deg);
   }
-  60% {
+  90% {
     transform: rotateZ(180deg);
-  }
-  70% {
-    transform: rotateZ(360deg);
   }
   100% {
     transform: rotateZ(360deg);
@@ -252,17 +253,14 @@
   0% {
     transform: rotateZ(0);
   }
-  20% {
+  40% {
     transform: rotateZ(0);
   }
-  30% {
+  50% {
     transform: rotateZ(180deg);
   }
-  60% {
+  90% {
     transform: rotateZ(180deg);
-  }
-  70% {
-    transform: rotateZ(360deg);
   }
   100% {
     transform: rotateZ(360deg);
@@ -271,105 +269,83 @@
 @-webkit-keyframes sablier-3-h {
   0% {
     transform: scaleY(0);
-    transform-origin: bottom;
   }
   10% {
-    transform: scaleY(1);
-  }
-  40% {
-    transform: scaleY(1);
-  }
-  50% {
     transform: scaleY(0);
-    transform-origin: top;
+    transform-origin: bottom;
+  }
+  30% {
+    transform: scaleY(1);
+  }
+  60% {
+    transform: scaleY(1);
   }
   80% {
     transform: scaleY(0);
-  }
-  90% {
-    transform: scaleY(1);
-    transform-origin: bottom;
+    transform-origin: top;
   }
   100% {
-    transform: scaleY(1);
+    transform: scaleY(0);
   }
 }
 @keyframes sablier-3-h {
   0% {
     transform: scaleY(0);
-    transform-origin: bottom;
   }
   10% {
-    transform: scaleY(1);
-  }
-  40% {
-    transform: scaleY(1);
-  }
-  50% {
     transform: scaleY(0);
-    transform-origin: top;
+    transform-origin: bottom;
+  }
+  30% {
+    transform: scaleY(1);
+  }
+  60% {
+    transform: scaleY(1);
   }
   80% {
     transform: scaleY(0);
-  }
-  90% {
-    transform: scaleY(1);
-    transform-origin: bottom;
+    transform-origin: top;
   }
   100% {
-    transform: scaleY(1);
+    transform: scaleY(0);
   }
 }
 @-webkit-keyframes sablier-1-h {
-  0% {
+  10% {
     transform: scaleY(1);
     transform-origin: bottom;
   }
-  10% {
+  30% {
     transform: scaleY(0);
   }
-  40% {
+  60% {
     transform: scaleY(0);
     transform-origin: top;
   }
-  50% {
-    transform: scaleY(1);
-  }
   80% {
     transform: scaleY(1);
-    transform-origin: bottom;
-  }
-  90% {
-    transform: scaleY(0);
   }
   100% {
-    transform: scaleY(0);
+    transform: scaleY(1);
   }
 }
 @keyframes sablier-1-h {
-  0% {
+  10% {
     transform: scaleY(1);
     transform-origin: bottom;
   }
-  10% {
+  30% {
     transform: scaleY(0);
   }
-  40% {
+  60% {
     transform: scaleY(0);
     transform-origin: top;
   }
-  50% {
-    transform: scaleY(1);
-  }
   80% {
     transform: scaleY(1);
-    transform-origin: bottom;
-  }
-  90% {
-    transform: scaleY(0);
   }
   100% {
-    transform: scaleY(0);
+    transform: scaleY(1);
   }
 }
 #chargement {
@@ -404,8 +380,8 @@
   padding: 4px;
   background-color: #9356DC;
   border-radius: 5%;
-  -webkit-animation: sablier-rotation 5s ease-in-out 1 normal both;
-          animation: sablier-rotation 5s ease-in-out 1 normal both;
+  -webkit-animation: sablier-rotation 2.5s ease-in-out 4 normal both;
+          animation: sablier-rotation 2.5s ease-in-out 4 normal both;
 }
 #chargement .encart .sablier {
   display: flex;
@@ -434,8 +410,8 @@
   border: none;
   padding: 0;
   background: linear-gradient(to bottom right, #FF79DA, #99E2D0);
-  -webkit-animation: sablier-1-h 5s ease-in-out 0s 4 normal both;
-          animation: sablier-1-h 5s ease-in-out 0s 4 normal both;
+  -webkit-animation: sablier-1-h 2.5s ease-in-out 0s 4 normal both;
+          animation: sablier-1-h 2.5s ease-in-out 0s 4 normal both;
 }
 #chargement .encart .sablier.partie--2 {
   height: 4%;
@@ -455,8 +431,8 @@
   border: none;
   padding: 0;
   background: linear-gradient(to bottom right, #FF79DA, #99E2D0);
-  -webkit-animation: sablier-3-h 5s ease-in-out 0s 4 normal both;
-          animation: sablier-3-h 5s ease-in-out 0s 4 normal both;
+  -webkit-animation: sablier-3-h 2.5s ease-in-out 0s 4 normal both;
+          animation: sablier-3-h 2.5s ease-in-out 0s 4 normal both;
 }
 
 header {
@@ -475,7 +451,7 @@ header img:nth-child(1) {
 }
 header img:nth-child(2) {
   width: 100%;
-  height: 250px;
+  height: 38vh;
   display: flex;
   -o-object-fit: cover;
      object-fit: cover;
@@ -492,6 +468,21 @@ header i, header i:hover, header i:visited {
   color: #000;
 }
 
+@media screen and (min-width: 600px) {
+  header img:nth-child(1) {
+    width: 250px;
+    display: flex;
+    margin: 50px 50px 12.5px 50px;
+  }
+  header img:nth-child(2) {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: visible;
+  }
+}
 #explorer {
   display: flex;
   flex-direction: column;
@@ -588,6 +579,7 @@ header i, header i:hover, header i:visited {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 50px;
   }
   #fonctionnement .btn {
     width: 31%;
@@ -699,6 +691,7 @@ header i, header i:hover, header i:visited {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 50px;
   }
   #restaurants .restaurant--carte {
     width: 24%;
@@ -726,8 +719,9 @@ header i, header i:hover, header i:visited {
 }
 #menu h1 i {
   position: absolute;
-  right: 30px;
+  transform: translateX(-15px);
   background: #f2f2f2;
+  margin-left: 20px;
 }
 #menu h1 .remplissage {
   cursor: pointer;
@@ -785,8 +779,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 100ms ease 300ms 1 normal both;
-          animation: apparition 100ms ease 300ms 1 normal both;
+  -webkit-animation: apparition-menu 200ms ease 150ms 1 normal both;
+          animation: apparition-menu 200ms ease 150ms 1 normal both;
 }
 #menu .plat.plat--1 p {
   display: block;
@@ -881,8 +875,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 100ms ease 600ms 1 normal both;
-          animation: apparition 100ms ease 600ms 1 normal both;
+  -webkit-animation: apparition-menu 200ms ease 300ms 1 normal both;
+          animation: apparition-menu 200ms ease 300ms 1 normal both;
 }
 #menu .plat.plat--2 p {
   display: block;
@@ -977,8 +971,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 100ms ease 900ms 1 normal both;
-          animation: apparition 100ms ease 900ms 1 normal both;
+  -webkit-animation: apparition-menu 200ms ease 450ms 1 normal both;
+          animation: apparition-menu 200ms ease 450ms 1 normal both;
 }
 #menu .plat.plat--3 p {
   display: block;
@@ -1073,8 +1067,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 100ms ease 1200ms 1 normal both;
-          animation: apparition 100ms ease 1200ms 1 normal both;
+  -webkit-animation: apparition-menu 200ms ease 600ms 1 normal both;
+          animation: apparition-menu 200ms ease 600ms 1 normal both;
 }
 #menu .plat.plat--4 p {
   display: block;
@@ -1169,8 +1163,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 100ms ease 1500ms 1 normal both;
-          animation: apparition 100ms ease 1500ms 1 normal both;
+  -webkit-animation: apparition-menu 200ms ease 750ms 1 normal both;
+          animation: apparition-menu 200ms ease 750ms 1 normal both;
 }
 #menu .plat.plat--5 p {
   display: block;
@@ -1265,8 +1259,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 100ms ease 1800ms 1 normal both;
-          animation: apparition 100ms ease 1800ms 1 normal both;
+  -webkit-animation: apparition-menu 200ms ease 900ms 1 normal both;
+          animation: apparition-menu 200ms ease 900ms 1 normal both;
 }
 #menu .plat.plat--6 p {
   display: block;
@@ -1361,8 +1355,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 100ms ease 2100ms 1 normal both;
-          animation: apparition 100ms ease 2100ms 1 normal both;
+  -webkit-animation: apparition-menu 200ms ease 1050ms 1 normal both;
+          animation: apparition-menu 200ms ease 1050ms 1 normal both;
 }
 #menu .plat.plat--7 p {
   display: block;
@@ -1457,8 +1451,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 100ms ease 2400ms 1 normal both;
-          animation: apparition 100ms ease 2400ms 1 normal both;
+  -webkit-animation: apparition-menu 200ms ease 1200ms 1 normal both;
+          animation: apparition-menu 200ms ease 1200ms 1 normal both;
 }
 #menu .plat.plat--8 p {
   display: block;
@@ -1553,8 +1547,8 @@ header i, header i:hover, header i:visited {
   box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
   background-color: #fff;
   color: #000;
-  -webkit-animation: apparition 100ms ease 2700ms 1 normal both;
-          animation: apparition 100ms ease 2700ms 1 normal both;
+  -webkit-animation: apparition-menu 200ms ease 1350ms 1 normal both;
+          animation: apparition-menu 200ms ease 1350ms 1 normal both;
 }
 #menu .plat.plat--9 p {
   display: block;
@@ -1638,6 +1632,294 @@ header i, header i:hover, header i:visited {
   -webkit-animation: coche_desc 1s 0s ease-in-out both;
           animation: coche_desc 1s 0s ease-in-out both;
 }
+#menu .plat.plat--10 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition-menu 200ms ease 1500ms 1 normal both;
+          animation: apparition-menu 200ms ease 1500ms 1 normal both;
+}
+#menu .plat.plat--10 p {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#menu .plat.plat--10 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 0;
+  height: 100%;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 75px;
+}
+#menu .plat.plat--10 .plat__desc p:first-child {
+  display: block;
+  font-size: 17px;
+  font-weight: 800;
+  z-index: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#menu .plat.plat--10 .plat__desc p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+  z-index: 0;
+}
+#menu .plat.plat--10 .plat__prix {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  right: 0px;
+  height: 70px;
+  background-color: #fff;
+  width: 70px;
+  margin: 0;
+  padding-bottom: 15px;
+  z-index: 1;
+  font-size: 17px;
+  font-weight: 800;
+}
+#menu .plat.plat--10 .plat__prix p {
+  display: block;
+}
+#menu .plat.plat--10 .plat__coche {
+  display: flex;
+  width: 70px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: -70px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+#menu .plat.plat--10:hover .plat__coche {
+  -webkit-animation: coche 1s 0s ease-in-out both;
+          animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--10:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
+}
+#menu .plat.plat--10:active .plat__prix {
+  -webkit-animation: coche 1s 0s ease-in-out both;
+          animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--10:active .plat__desc {
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
+}
+#menu .plat.plat--11 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition-menu 200ms ease 1650ms 1 normal both;
+          animation: apparition-menu 200ms ease 1650ms 1 normal both;
+}
+#menu .plat.plat--11 p {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#menu .plat.plat--11 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 0;
+  height: 100%;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 75px;
+}
+#menu .plat.plat--11 .plat__desc p:first-child {
+  display: block;
+  font-size: 17px;
+  font-weight: 800;
+  z-index: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#menu .plat.plat--11 .plat__desc p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+  z-index: 0;
+}
+#menu .plat.plat--11 .plat__prix {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  right: 0px;
+  height: 70px;
+  background-color: #fff;
+  width: 70px;
+  margin: 0;
+  padding-bottom: 15px;
+  z-index: 1;
+  font-size: 17px;
+  font-weight: 800;
+}
+#menu .plat.plat--11 .plat__prix p {
+  display: block;
+}
+#menu .plat.plat--11 .plat__coche {
+  display: flex;
+  width: 70px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: -70px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+#menu .plat.plat--11:hover .plat__coche {
+  -webkit-animation: coche 1s 0s ease-in-out both;
+          animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--11:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
+}
+#menu .plat.plat--11:active .plat__prix {
+  -webkit-animation: coche 1s 0s ease-in-out both;
+          animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--11:active .plat__desc {
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
+}
+#menu .plat.plat--12 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, 0.2);
+  background-color: #fff;
+  color: #000;
+  -webkit-animation: apparition-menu 200ms ease 1800ms 1 normal both;
+          animation: apparition-menu 200ms ease 1800ms 1 normal both;
+}
+#menu .plat.plat--12 p {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#menu .plat.plat--12 .plat__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 0;
+  height: 100%;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 75px;
+}
+#menu .plat.plat--12 .plat__desc p:first-child {
+  display: block;
+  font-size: 17px;
+  font-weight: 800;
+  z-index: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#menu .plat.plat--12 .plat__desc p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+  z-index: 0;
+}
+#menu .plat.plat--12 .plat__prix {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  right: 0px;
+  height: 70px;
+  background-color: #fff;
+  width: 70px;
+  margin: 0;
+  padding-bottom: 15px;
+  z-index: 1;
+  font-size: 17px;
+  font-weight: 800;
+}
+#menu .plat.plat--12 .plat__prix p {
+  display: block;
+}
+#menu .plat.plat--12 .plat__coche {
+  display: flex;
+  width: 70px;
+  position: absolute;
+  background-color: #99E2D0;
+  top: 0;
+  right: -70px;
+  height: 70px;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+#menu .plat.plat--12:hover .plat__coche {
+  -webkit-animation: coche 1s 0s ease-in-out both;
+          animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--12:hover .plat__coche i {
+  -webkit-animation: coche_rotation 1s 0s ease-in-out both;
+          animation: coche_rotation 1s 0s ease-in-out both;
+}
+#menu .plat.plat--12:active .plat__prix {
+  -webkit-animation: coche 1s 0s ease-in-out both;
+          animation: coche 1s 0s ease-in-out both;
+}
+#menu .plat.plat--12:active .plat__desc {
+  -webkit-animation: coche_desc 1s 0s ease-in-out both;
+          animation: coche_desc 1s 0s ease-in-out both;
+}
 
 #menu h3 {
   position: relative;
@@ -1665,6 +1947,7 @@ header i, header i:hover, header i:visited {
   }
   #menu h1 {
     display: flex;
+    justify-content: center;
     width: 100%;
   }
 }
@@ -1680,7 +1963,11 @@ header i, header i:hover, header i:visited {
   }
   #menu h1 {
     display: flex;
+    justify-content: center;
     width: 100%;
+  }
+  #menu h1 i {
+    right: 0px;
   }
 }
 footer {
@@ -1711,10 +1998,19 @@ footer img {
 
 body {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+@media screen and (min-width: 600px) {
+  body {
+    height: 100%;
+  }
+}
 h1 {
   font-family: "shrikhand";
+  font-size: 26px;
 }
 
 h2 {

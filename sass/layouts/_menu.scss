@@ -14,8 +14,9 @@
         position: relative;
         i{
             position: absolute;
-            right: 30px;
+            transform: translateX(-15px);
             background: $couleur-fond-gris-clair;
+            margin-left: 20px;
         }
         .remplissage {
             cursor: pointer;
@@ -59,7 +60,7 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-        @for $i from 1 through 9{
+        @for $i from 1 through 12{
         &.plat{
         &--#{$i} {
         display: flex;
@@ -71,7 +72,7 @@
         border-radius: 15px;
         box-shadow: 5px 5px 15px 3px rgba(90, 90, 90, .2);
         @include couleur-fond-et-texte($couleur-fond-blanc);
-        animation: apparition 100ms ease 300ms * $i 1 normal both;
+        animation: apparition-menu 200ms ease 150ms * $i 1 normal both;
         p{
             display: block;
             margin: 0;
@@ -187,6 +188,7 @@
             }
             h1{
                 display: flex;
+                justify-content: center;
                 width: 100%;
             }
         }
@@ -203,7 +205,11 @@
             }
             h1{
                 display: flex;
+                justify-content: center;
                 width: 100%;
+                i{
+                    right: 0px;
+                }
             }
         }
     }

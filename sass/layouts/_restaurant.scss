@@ -98,6 +98,7 @@
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
+        padding: map-get($paddings, padding-ecran)*2;
         .restaurant--carte{
             width: 24%;
         }

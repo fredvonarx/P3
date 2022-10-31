@@ -21,10 +21,20 @@
 
 body{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        height: 100%;
+    }
 }
 
 h1{
     font-family: 'shrikhand';
+    font-size: 26px;
 }
 
 h2{

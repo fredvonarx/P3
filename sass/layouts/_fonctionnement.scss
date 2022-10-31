@@ -43,6 +43,7 @@
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
+        padding: map-get($paddings, padding-ecran)*2;
         .btn{
             width: 31%;
         }
