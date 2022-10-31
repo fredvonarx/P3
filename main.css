@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@-webkit-keyframes remplissage-icone {
-  0% {
-    transform: scaleY(0);
-  }
-  100% {
-    transform: scaleY(0);
-  }
-}
-@keyframes remplissage-icone {
-  0% {
-    transform: scaleY(0);
-  }
-  100% {
-    transform: scaleY(0);
-  }
-}
 @-webkit-keyframes apparition-menu {
   0% {
     opacity: 0;
@@ -52,26 +36,6 @@
     transform: translateX(-70px);
   }
 }
-@-webkit-keyframes coche_prix {
-  0% {
-    transform: scaleX(1);
-    transform-origin: right;
-  }
-  100% {
-    transform: scaleX(2);
-    transform-origin: right;
-  }
-}
-@keyframes coche_prix {
-  0% {
-    transform: scaleX(1);
-    transform-origin: right;
-  }
-  100% {
-    transform: scaleX(2);
-    transform-origin: right;
-  }
-}
 @-webkit-keyframes coche_desc {
   0% {
     padding-right: 75px;
@@ -86,26 +50,6 @@
   }
   100% {
     padding-right: 145px;
-  }
-}
-@-webkit-keyframes coche_desc_p {
-  from {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
-  to {
-    transform: scaleX(1.01);
-    transform-origin: left;
-  }
-}
-@keyframes coche_desc_p {
-  from {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
-  to {
-    transform: scaleX(1.01);
-    transform-origin: left;
   }
 }
 @-webkit-keyframes coche_rotation {
@@ -140,98 +84,52 @@
     transform: scale(0);
   }
 }
-@-webkit-keyframes sablier-1 {
-  0% {
-    opacity: 100%;
-  }
-  10% {
-    opacity: 0%;
-  }
-  40% {
-    opacity: 0%;
-  }
-  50% {
-    opacity: 100%;
-  }
-  80% {
-    opacity: 100%;
-  }
-  90% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 0%;
-  }
-}
-@keyframes sablier-1 {
-  0% {
-    opacity: 100%;
-  }
-  10% {
-    opacity: 0%;
-  }
-  40% {
-    opacity: 0%;
-  }
-  50% {
-    opacity: 100%;
-  }
-  80% {
-    opacity: 100%;
-  }
-  90% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 0%;
-  }
-}
-@-webkit-keyframes sablier-3 {
-  0% {
-    opacity: 0%;
-  }
-  10% {
-    opacity: 100%;
-  }
-  40% {
-    opacity: 100%;
-  }
-  50% {
-    opacity: 0%;
-  }
-  80% {
-    opacity: 0%;
-  }
-  90% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-@keyframes sablier-3 {
-  0% {
-    opacity: 0%;
-  }
-  10% {
-    opacity: 100%;
-  }
-  40% {
-    opacity: 100%;
-  }
-  50% {
-    opacity: 0%;
-  }
-  80% {
-    opacity: 0%;
-  }
-  90% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
+/*@keyframes sablier-1 {
+    0%{
+        opacity: 100%;
+    }
+    10%{
+        opacity: 0%;
+    }
+    40%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    80%{
+        opacity: 100%;
+    }
+    90%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}*/
+/*@keyframes sablier-3 {
+    0%{
+        opacity: 0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    40%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    80%{
+        opacity: 0%;
+    }
+    90%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}*/
 @-webkit-keyframes sablier-rotation {
   0% {
     transform: rotateZ(0);

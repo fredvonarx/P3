@@ -1,12 +1,3 @@
-@keyframes remplissage-icone{
-    0%{
-        transform: scaleY(0);
-    }
-    100%{
-        transform: scaleY(0);
-    }
-}
-
 @keyframes apparition-menu{
     0%{
         opacity: 0;
@@ -27,36 +18,12 @@
     }
 }
 
-@keyframes coche_prix{
-    0%{
-        transform: scaleX(1);
-        transform-origin: right;
-    }
-    100%{
-        transform: scaleX(2);
-        transform-origin: right;
-    }
-}
-
 @keyframes coche_desc{
     0%{
         padding-right: 75px;
     }
     100%{
         padding-right: 145px;
-    }
-}
-    
-
-
-@keyframes coche_desc_p{
-    from{
-        transform: scaleX(1);
-        transform-origin: left;
-    }
-    to{
-        transform: scaleX(1.01);
-        transform-origin: left;
     }
 }
 
@@ -78,7 +45,7 @@
     }
 }
 
-@keyframes sablier-1 {
+/*@keyframes sablier-1 {
     0%{
         opacity: 100%;
     }
@@ -100,9 +67,9 @@
     100%{
         opacity: 0%;
     }
-}
+}*/
 
-@keyframes sablier-3 {
+/*@keyframes sablier-3 {
     0%{
         opacity: 0%;
     }
@@ -124,7 +91,7 @@
     100%{
         opacity: 100%;
     }
-}
+}*/
 
 @keyframes sablier-rotation {
     0%{
