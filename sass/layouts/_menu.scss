@@ -129,11 +129,11 @@
         }
         .plat__coche{
             display: flex;
-            width: 70px;
+            width: $largeur-boite-coche;
             position: absolute;
             background-color: $couleur-fond-tertiaire;
             top: 0;
-            right: -70px;
+            right: -$largeur-boite-coche;
             height: $hauteur-plat;
             border-radius: 0;
             justify-content: center;
