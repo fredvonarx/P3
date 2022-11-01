@@ -25,11 +25,9 @@
         p{
             &:first-child{
                 position: absolute;
-                left: -9px;
+                left: - $diametre-rond-fonctionnement / 2;
                 top: center;
-                height: 18px;
-                width: 18px;
-                border-radius: 9px;
+                @include cercle-parfait($diametre-rond-fonctionnement);
                 text-align: center;
                 @include couleur-fond-et-texte($couleur-fond-primaire);
             }

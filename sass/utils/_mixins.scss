@@ -2,3 +2,9 @@
     background-color: $couleur-fond;
     color: couleur-police($couleur-fond);
 }
+
+@mixin cercle-parfait($diametre) {
+    height: $diametre;
+    width: $diametre;
+    border-radius: $diametre/2;
+}
