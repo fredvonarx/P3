@@ -93,7 +93,7 @@
             padding-left: map-get($paddings, padding-carte-texte);
             padding-top: map-get($paddings, padding-carte-texte);
             padding-bottom: map-get($paddings, padding-carte-texte);
-            padding-right: 75px;
+            padding-right: $largeur-boite-coche + 5px;
             p:first-child{
                 display: block;
                 font-size: 17px;
