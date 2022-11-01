@@ -464,11 +464,11 @@ header i, header i:hover, header i:visited {
 }
 #fonctionnement .btn p:first-child {
   position: absolute;
-  left: -9px;
+  left: -10px;
   top: center;
-  height: 18px;
-  width: 18px;
-  border-radius: 9px;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
   text-align: center;
   background-color: #9356DC;
   color: #fff;
