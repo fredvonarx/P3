@@ -14,22 +14,18 @@
         align-items: center;
         position: relative;
         padding-right: 20px;
-        i{
-            background: $couleur-fond-gris-clair;
-            margin-left: 20px;
-        }
-        .fa-stack {
+        .fa-heart {
             cursor: pointer;
             transform: translateX(-15px);
           }
-          .fa-stack .fa-full {
+            .fa-full {
             opacity: 0;
             transition: 1s;
             background: linear-gradient(#9356DC 20%, #FF79DA);
             background-clip: text;
             color: transparent;
           }
-          .fa-stack .fa-full:hover {
+            .fa-full:hover {
             opacity: 1;
           }
     }
@@ -192,8 +188,8 @@
                 display: flex;
                 justify-content: center;
                 width: 100%;
-                i{
-                    transform: translateX(50px);
+                .fa-heart{
+                    transform: translateX(35px);
                 }
             }
         }
@@ -212,7 +208,7 @@
                 display: flex;
                 justify-content: center;
                 width: 100%;
-                i{
+                .fa-heart{
                     transform: translateX(50px);
                 }
             }

@@ -618,15 +618,11 @@ header i, header i:hover, header i:visited {
   position: relative;
   padding-right: 20px;
 }
-#menu .titre i {
-  background: #f2f2f2;
-  margin-left: 20px;
-}
-#menu .titre .fa-stack {
+#menu .titre .fa-heart {
   cursor: pointer;
   transform: translateX(-15px);
 }
-#menu .titre .fa-stack .fa-full {
+#menu .titre .fa-full {
   opacity: 0;
   transition: 1s;
   background: linear-gradient(#9356DC 20%, #FF79DA);
@@ -634,7 +630,7 @@ header i, header i:hover, header i:visited {
           background-clip: text;
   color: transparent;
 }
-#menu .titre .fa-stack .fa-full:hover {
+#menu .titre .fa-full:hover {
   opacity: 1;
 }
 #menu .btn {
@@ -1850,8 +1846,8 @@ header i, header i:hover, header i:visited {
     justify-content: center;
     width: 100%;
   }
-  #menu .titre i {
-    transform: translateX(50px);
+  #menu .titre .fa-heart {
+    transform: translateX(35px);
   }
 }
 @media screen and (min-width: 1000px) {
@@ -1869,7 +1865,7 @@ header i, header i:hover, header i:visited {
     justify-content: center;
     width: 100%;
   }
-  #menu .titre i {
+  #menu .titre .fa-heart {
     transform: translateX(50px);
   }
 }
