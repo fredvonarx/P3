@@ -602,30 +602,31 @@ header i, header i:hover, header i:visited {
 #menu {
   display: flex;
   flex-direction: column;
-  padding: 0 25px 100px 25px;
+  padding: 25px 25px 100px 25px;
   margin-top: -40px;
   border-radius: 40px 40px 0 0;
   position: relative;
   background-color: #f2f2f2;
   color: #000;
 }
-#menu h1 {
+#menu .titre {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
   position: relative;
+  padding-right: 20px;
 }
-#menu h1 i {
-  position: absolute;
-  transform: translateX(-15px);
+#menu .titre i {
   background: #f2f2f2;
   margin-left: 20px;
 }
-#menu h1 .remplissage {
+#menu .titre .fa-stack {
   cursor: pointer;
+  transform: translateX(-15px);
 }
-#menu h1 .remplissage .fa-full {
+#menu .titre .fa-stack .fa-full {
   opacity: 0;
   transition: 1s;
   background: linear-gradient(#9356DC 20%, #FF79DA);
@@ -633,7 +634,7 @@ header i, header i:hover, header i:visited {
           background-clip: text;
   color: transparent;
 }
-#menu h1 .remplissage .fa-full:hover {
+#menu .titre .fa-stack .fa-full:hover {
   opacity: 1;
 }
 #menu .btn {
@@ -1844,10 +1845,13 @@ header i, header i:hover, header i:visited {
   #menu .menu {
     width: 48%;
   }
-  #menu h1 {
+  #menu .titre {
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+  #menu .titre i {
+    transform: translateX(50px);
   }
 }
 @media screen and (min-width: 1000px) {
@@ -1860,13 +1864,13 @@ header i, header i:hover, header i:visited {
   #menu .menu {
     width: 32%;
   }
-  #menu h1 {
+  #menu .titre {
     display: flex;
     justify-content: center;
     width: 100%;
   }
-  #menu h1 i {
-    right: 0px;
+  #menu .titre i {
+    transform: translateX(50px);
   }
 }
 footer {

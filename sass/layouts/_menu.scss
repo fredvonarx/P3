@@ -1,37 +1,39 @@
 #menu{
     display: flex;
     flex-direction: column;
-    padding: 0 map-get($paddings, padding-ecran) 4*map-get($paddings, padding-ecran) map-get($paddings, padding-ecran);
+    padding: map-get($paddings, padding-ecran) map-get($paddings, padding-ecran) 4*map-get($paddings, padding-ecran) map-get($paddings, padding-ecran);
     margin-top: -40px;
     border-radius: 40px 40px 0 0;
     position: relative;
     @include  couleur-fond-et-texte($couleur-fond-gris-clair);
-    h1{
+    .titre{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        width: 100%;
         align-items: center;
         position: relative;
+        padding-right: 20px;
         i{
-            position: absolute;
-            transform: translateX(-15px);
             background: $couleur-fond-gris-clair;
             margin-left: 20px;
         }
-        .remplissage {
+        .fa-stack {
             cursor: pointer;
+            transform: translateX(-15px);
           }
-          .remplissage .fa-full {
+          .fa-stack .fa-full {
             opacity: 0;
             transition: 1s;
             background: linear-gradient(#9356DC 20%, #FF79DA);
             background-clip: text;
             color: transparent;
           }
-          .remplissage .fa-full:hover {
+          .fa-stack .fa-full:hover {
             opacity: 1;
           }
-    } 
+    }
+    
     .btn{
         display: flex;
         position: absolute;
@@ -186,10 +188,13 @@
             .menu{
                 width: 48%;
             }
-            h1{
+            .titre{
                 display: flex;
                 justify-content: center;
                 width: 100%;
+                i{
+                    transform: translateX(50px);
+                }
             }
         }
     }
@@ -203,12 +208,12 @@
             .menu{
                 width: 32%;
             }
-            h1{
+            .titre{
                 display: flex;
                 justify-content: center;
                 width: 100%;
                 i{
-                    right: 0px;
+                    transform: translateX(50px);
                 }
             }
         }
