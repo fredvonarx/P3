@@ -8,6 +8,7 @@
         position: relative;
         display: flex;
         flex-direction: row;
+        padding-left: map-get($paddings, padding-carte-texte);
         @include couleur-fond-et-texte($couleur-fond-gris-clair);
         align-items: center;
         margin-bottom: 25px;
@@ -24,11 +25,15 @@
         }
         p{
             &:first-child{
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 position: absolute;
                 left: - $diametre-rond-fonctionnement / 2;
                 @include cercle-parfait($diametre-rond-fonctionnement);
                 text-align: center;
                 @include couleur-fond-et-texte($couleur-fond-primaire);
+                background-position: center;
             }
         }
     }

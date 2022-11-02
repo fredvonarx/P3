@@ -444,6 +444,7 @@ header i, header i:hover, header i:visited {
   position: relative;
   display: flex;
   flex-direction: row;
+  padding-left: 15px;
   background-color: #f2f2f2;
   color: #000;
   align-items: center;
@@ -462,14 +463,18 @@ header i, header i:hover, header i:visited {
   margin: 0 15px 0 15px;
 }
 #fonctionnement .btn p:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  left: -10px;
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
+  left: -11px;
+  height: 22px;
+  width: 22px;
+  border-radius: 11px;
   text-align: center;
   background-color: #9356DC;
   color: #fff;
+  background-position: center;
 }
 
 @media screen and (min-width: 800px) {
