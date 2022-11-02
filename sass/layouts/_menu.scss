@@ -21,7 +21,7 @@
             .fa-full {
             opacity: 0;
             transition: 1s;
-            background: linear-gradient($couleur-fond-primaire 20%, $couleur-fond-tertiaire);
+            background: linear-gradient($couleur-fond-primaire 20%, $couleur-fond-secondaire);
             background-clip: text;
             color: transparent;
           }
