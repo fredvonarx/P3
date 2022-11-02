@@ -261,7 +261,6 @@
 }
 #chargement p {
   position: absolute;
-  left: center;
   top: 60vh;
   text-transform: uppercase;
   font-weight: 800;
@@ -465,7 +464,6 @@ header i, header i:hover, header i:visited {
 #fonctionnement .btn p:first-child {
   position: absolute;
   left: -10px;
-  top: center;
   height: 20px;
   width: 20px;
   border-radius: 10px;

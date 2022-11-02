@@ -26,7 +26,6 @@
             &:first-child{
                 position: absolute;
                 left: - $diametre-rond-fonctionnement / 2;
-                top: center;
                 @include cercle-parfait($diametre-rond-fonctionnement);
                 text-align: center;
                 @include couleur-fond-et-texte($couleur-fond-primaire);
