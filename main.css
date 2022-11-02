@@ -1819,6 +1819,7 @@ header i, header i:hover, header i:visited {
 
 #menu h3 {
   position: relative;
+  text-transform: uppercase;
 }
 
 #menu h3::after {
