@@ -17,11 +17,11 @@
         .fa-heart {
             cursor: pointer;
             transform: translateX(-15px);
-          }
+            }
             .fa-full {
             opacity: 0;
             transition: 1s;
-            background: linear-gradient(#9356DC 20%, #FF79DA);
+            background: linear-gradient($couleur-fond-primaire 20%, $couleur-fond-tertiaire);
             background-clip: text;
             color: transparent;
           }

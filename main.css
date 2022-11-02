@@ -531,14 +531,14 @@ header i, header i:hover, header i:visited {
   margin: 0 0 15px 15px;
   height: 15px;
 }
-#restaurants a .remplissage {
+#restaurants a .fa-stack {
   display: flex;
   position: absolute;
   cursor: pointer;
   bottom: 15px;
   right: 25px;
 }
-#restaurants a .remplissage .fa-full {
+#restaurants a .fa-full {
   opacity: 0;
   transition: 1s;
   background: linear-gradient(#9356DC 20%, #FF79DA);
@@ -546,7 +546,7 @@ header i, header i:hover, header i:visited {
           background-clip: text;
   color: transparent;
 }
-#restaurants a .remplissage .fa-full:hover {
+#restaurants a .fa-full:hover {
   opacity: 1;
 }
 #restaurants a .nouveau {
@@ -625,7 +625,7 @@ header i, header i:hover, header i:visited {
 #menu .titre .fa-full {
   opacity: 0;
   transition: 1s;
-  background: linear-gradient(#9356DC 20%, #FF79DA);
+  background: linear-gradient(#9356DC 20%, #99E2D0);
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
