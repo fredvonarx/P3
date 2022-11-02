@@ -135,6 +135,9 @@
 }
 
 @keyframes sablier-1-h {
+    0%{
+        transform: scaleY(1);
+    }
     10%{
         transform: scaleY(1);
         transform-origin: bottom;

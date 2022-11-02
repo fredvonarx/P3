@@ -115,7 +115,7 @@
             right: 0px;
             height: $hauteur-plat;
             background-color: $couleur-fond-blanc;
-            width: 70px;
+            width: $largeur-boite-coche;
             margin: 0;
             padding-bottom: map-get($paddings, padding-carte-texte);;
             z-index: 1;
