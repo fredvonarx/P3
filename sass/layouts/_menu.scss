@@ -97,11 +97,9 @@
                 font-size: 17px;
                 font-weight: 800;
                 z-index: 0;
-                text-overflow: ellipsis;
-                white-space: nowrap;
-                overflow: hidden;
             }
             p:nth-child(2){
+                display: block;
                 font-size: 16px;
                 font-weight: 400;
                 z-index: 0;
@@ -117,7 +115,7 @@
             background-color: $couleur-fond-blanc;
             width: $largeur-boite-coche;
             margin: 0;
-            padding-bottom: map-get($paddings, padding-carte-texte);;
+            padding-bottom: map-get($paddings, padding-carte-texte);
             z-index: 1;
             font-size: 17px;
             font-weight: 800;
