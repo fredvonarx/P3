@@ -629,7 +629,7 @@ header i, header i:hover, header i:visited {
   position: relative;
   padding-right: 20px;
 }
-#menu .titre .fa-heart {
+#menu .titre .fa-stack {
   cursor: pointer;
   transform: translateX(-15px);
 }
@@ -716,11 +716,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--1 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -812,11 +810,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--2 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -908,11 +904,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--3 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1004,11 +998,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--4 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1100,11 +1092,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--5 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1196,11 +1186,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--6 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1292,11 +1280,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--7 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1388,11 +1374,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--8 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1484,11 +1468,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--9 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1580,11 +1562,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--10 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1676,11 +1656,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--11 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1772,11 +1750,9 @@ header i, header i:hover, header i:visited {
   font-size: 17px;
   font-weight: 800;
   z-index: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 #menu .plat.plat--12 .plat__desc p:nth-child(2) {
+  display: block;
   font-size: 16px;
   font-weight: 400;
   z-index: 0;
@@ -1858,7 +1834,7 @@ header i, header i:hover, header i:visited {
     justify-content: center;
     width: 100%;
   }
-  #menu .titre .fa-heart {
+  #menu .titre .fa-stack {
     transform: translateX(35px);
   }
 }
@@ -1877,7 +1853,7 @@ header i, header i:hover, header i:visited {
     justify-content: center;
     width: 100%;
   }
-  #menu .titre .fa-heart {
+  #menu .titre .fa-stack {
     transform: translateX(50px);
   }
 }
